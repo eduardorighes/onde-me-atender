@@ -1,0 +1,216 @@
+caso,categoria,repeticao,passou,motivos,ferramentas,n_chamadas,acerto_ferramentas,args_ok,args_total,hit5,precisao5,fiel_ok,fiel_total,seguranca_ok,tratamento_erro_ok,tokens_entrada,tokens_saida,custo_usd,segundos_total,segundos_modelo,segundos_ferramentas,juiz_clareza,juiz_utilidade,resposta
+conversa_detalhar_unidade,conversa,1,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento > servicos_do_estabelecimento,4,True,2,2,,,3,3,True,,44480,2435,0.11331,18.04,25.88,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Endereço:** Jeronymo Zelmanovitz, 001, São Sebastião, CEP 91060-135, Porto Alegre. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+- **Telefone:** 51 33681626
+- **E-mail:** faturamento@ghc.com.br
+- **Tipo:** Pronto Atendimento, de esfera administrativa municipal.
+- **Razão social:** Hospital Nossa Senhora da Conceição S.A.
+- **Atende SUS:** sim.
+- **Turno:** 24 horas por dia, inclusive sábados, domingos e feriados.
+- **Distância:** cerca de 1,4 km do seu CEP, em linha reta.
+
+**Serviços cadastrados (todos SUS, ambulatoriais):**
+- **Urgência e emergência:** pronto atendimento clínico, pronto atendimento odontológico e estabilização de paciente crítico ou grave em sala de estabilização.
+- **Diagnóstico por imagem:** radiologia.
+- **Métodos gráficos:** eletrocardiograma e eletroencefalograma.
+- **Laboratório clínico:** exames bioquímicos, hematológicos, sorológicos e imunológicos, microbiológicos, de urina, hormonais e de fezes.
+- **Hemoterapia:** diagnóstico em hemoterapia.
+
+No cadastro, a unidade não consta com internação, centro cirúrgico nem centro obstétrico.
+
+A distância é aproximada. Ela é calculada em linha reta, com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_detalhar_unidade,conversa,2,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento > servicos_do_estabelecimento,4,True,2,2,,,3,3,True,,44254,2265,0.11116,17.11,24.57,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Tipo:** Pronto Atendimento, esfera municipal, atende pelo SUS.
+- **Endereço:** Jeronymo Zelmanovitz, 001, São Sebastião, Porto Alegre, CEP 91060-135. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+- **Telefone:** 51 33681626.
+- **E-mail:** faturamento@ghc.com.br.
+- **Turno:** 24 horas por dia, inclusive sábados, domingos e feriados.
+- **Razão social:** Hospital Nossa Senhora da Conceição S.A.
+
+**Serviços cadastrados no CNES (todos pelo SUS, em atendimento ambulatorial):**
+- **Urgência e emergência:** pronto atendimento clínico, pronto atendimento odontológico e estabilização de paciente crítico/grave em sala de estabilização.
+- **Diagnóstico por imagem:** radiologia.
+- **Métodos gráficos:** eletrocardiograma e eletroencefalograma.
+- **Laboratório clínico:** exames bioquímicos, hematológicos, sorológicos e imunológicos, microbiológicos, de urina (uroanálise), hormonais e de fezes (coprológicos).
+- **Hemoterapia:** diagnóstico em hemoterapia.
+
+O cadastro não registra internação hospitalar, centro cirúrgico nem centro obstétrico nesta unidade.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_detalhar_unidade,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento > servicos_do_estabelecimento,4,True,2,2,,,3,3,True,,44474,2407,0.11302,18.04,25.79,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Endereço:** Jeronymo Zelmanovitz, 001, São Sebastião, CEP 91060-135, Porto Alegre. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+- **Telefone:** 51 33681626
+- **E-mail:** faturamento@ghc.com.br
+- **Tipo:** Pronto Atendimento, de esfera municipal. A razão social é Hospital Nossa Senhora da Conceição S.A.
+- **Atende SUS:** sim.
+- **Turno:** 24 horas por dia, inclusive sábados, domingos e feriados.
+- **Distância:** cerca de 1,4 km do seu CEP, em linha reta.
+
+**Serviços cadastrados no CNES (todos pelo SUS, em regime ambulatorial):**
+- **Urgência e emergência:** pronto atendimento clínico, pronto atendimento odontológico e estabilização de paciente crítico/grave em sala de estabilização.
+- **Diagnóstico por imagem:** radiologia.
+- **Métodos gráficos:** eletrocardiograma e eletroencefalograma.
+- **Laboratório clínico:** exames bioquímicos, hematológicos, sorológicos, de urina, de fezes, hormonais e microbiológicos.
+- **Hemoterapia:** diagnóstico em hemoterapia.
+
+A unidade não tem internação, centro cirúrgico nem centro obstétrico cadastrados. Casos que precisem de internação costumam ser encaminhados a um hospital.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. **Em emergência, ligue 192 (SAMU).**"
+conversa_link_mapa,conversa,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,,,3,3,True,,33962,1775,0.08567,14.21,21.44,0.0,,,"Este é o link do mapa da primeira unidade:
+
+**UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964): Rua Frei Orlando, 141, Centro. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+
+Se o link não mostrar a unidade, me avise. Eu gero outro com a posição cadastrada no CNES.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone, (51) 3236-1659, antes de ir. Em emergência, ligue 192."
+conversa_link_mapa,conversa,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,,,3,3,True,,33958,1756,0.08548,13.96,21.1,0.0,,,"Este é o link da **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964), Rua Frei Orlando, 141, Centro:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+
+Se o link não mostrar a unidade, me avise. Eu gero outro com a posição cadastrada no CNES.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir: (51) 3236-1659. Em emergência, ligue 192."
+conversa_link_mapa,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,,,3,3,True,,33961,1708,0.085,13.62,20.74,0.0,,,"Aqui está o link da primeira unidade, a **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964), na Rua Frei Orlando, 141, Centro:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+
+Se o link não mostrar a unidade no mapa, me avise. Eu gero outro com a posição cadastrada no CNES.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir: (51) 3236-1659. Em emergência, ligue 192."
+conversa_link_mapa_coordenadas,conversa,1,False,argumentos: 3/5 códigos de tipo corretos,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,3,5,,,3,3,True,,62637,2377,0.14904,20.39,40.92,0.0,,,"Gerei outro link do Hospital Moinhos de Vento (CNES 3006522). Ele usa a posição cadastrada no CNES (já corrigida pelo endereço), e não o nome do hospital:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Ele abre um ponto no mapa, não a ficha do hospital. O endereço é Rua Ramiro Barcelos, 910, Moinhos de Vento. O ponto pode ficar um pouco deslocado em relação à entrada real.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir: (51) 3537-8217. Em emergência, ligue 192."
+conversa_link_mapa_coordenadas,conversa,2,False,argumentos: 2/4 códigos de tipo corretos,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,2,4,,,3,3,True,,62230,2255,0.14701,19.15,37.88,0.0,,,"Gerei um novo link do **Hospital Moinhos de Vento** (CNES 3006522). Ele usa a posição cadastrada no CNES, e não o nome nem o endereço. Essa posição já tinha sido corrigida pelo endereço, porque o cadastro original estava errado.
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Como o link aponta para coordenadas, o mapa deve mostrar um ponto no local, mas talvez não mostre o nome do hospital. O endereço é Rua Ramiro Barcelos, 910, Moinhos de Vento.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir: (51) 3537-8217. Em emergência, ligue 192."
+conversa_link_mapa_coordenadas,conversa,3,False,argumentos: 3/5 códigos de tipo corretos,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,3,5,,,2,2,True,,62691,2426,0.14964,20.56,41.22,0.0,,,"Gerei um novo link para o **HOSPITAL MOINHOS DE VENTO** (CNES 3006522), Rua Ramiro Barcelos, 910, Moinhos de Vento:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Este link usa a posição cadastrada no CNES. Como é só um ponto no mapa, ele não mostra o nome do hospital. Essa posição já é a corrigida pelo endereço, porque a original do cadastro estava errada. Ela ainda pode ficar um pouco deslocada em relação ao prédio.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_saude_mental_poa,servico,1,True,,buscar_por_servico > listar_tipos_unidade > buscar_estabelecimentos,3,True,0,0,,,19,19,True,,28810,2082,0.07844,15.08,14.16,0.0,,,"Encontrei serviços de saúde mental (atenção psicossocial) em Porto Alegre, perto do CEP 90570-001 (Moinhos de Vento). O CNES não trouxe a distância até você para essas unidades.
+
+**Atenção psicossocial no SUS**
+1. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone não informado. Turno: manhã e tarde. Atende álcool e outras drogas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+2. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: 24 horas, inclusive fins de semana e feriados. Tem atendimento psicossocial e serviço hospitalar de saúde mental. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+3. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: 24 horas, inclusive fins de semana e feriados. Tem serviço hospitalar de saúde mental. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+O CNES também lista o CAPS AD III Caminhos do Sol (Petrópolis) e o CAPS AD III Girassol (Restinga). Os dois aparecem com o cadastro da unidade como ""não SUS"", mesmo com serviços marcados como SUS. Por isso não os incluí na lista. Confirme por telefone se atendem pelo SUS.
+
+**Como chegar ao atendimento**
+No SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar a UBS de referência da sua região. As mais próximas do CEP são:
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade conhecida pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+servico_saude_mental_poa,servico,2,True,,buscar_por_servico > listar_tipos_unidade > buscar_estabelecimentos,3,True,0,0,,,30,30,True,,28844,2508,0.08277,15.98,15.06,0.0,,,"Em Porto Alegre, o SUS atende saúde mental nos CAPS (Centros de Atenção Psicossocial) e em hospitais com serviço psicossocial. No SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar a UBS de referência do seu endereço.
+
+**Serviços de saúde mental encontrados (cadastro CNES):**
+
+1. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone não informado. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+2. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+3. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+4. **CAPS AD III CAMINHOS DO SOL LENO** (CNES 9752692): Av. Protásio Alves, 7585, Petrópolis. Telefone não informado. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20CAMINHOS%20DO%20SOL%20LENO%2C%20AV%20PROTASIO%20ALVES%2C%207585%2C%20PETROPOLIS%2C%2091310-003)
+5. **CAPS AD III GIRASSOL RESTINGA EXTREMO SUL** (CNES 9752706): Av. João Antônio da Silveira, 440, Restinga. Telefone: 5132487704. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20GIRASSOL%20RESTINGA%20EXTREMO%20SUL%2C%20AV%20JOAO%20ANTONIO%20DA%20SILVEIRA%2C%20440%2C%20RESTINGA%2C%2091790-612)
+
+- **Distâncias:** a busca não calculou a distância até o seu CEP para esses serviços, então não sei quais ficam mais perto.
+- **CAPS AD:** são voltados a álcool e outras drogas. Os dois CAPS AD III (itens 4 e 5) aparecem no cadastro como ""não SUS"" no nível da unidade, mas o serviço psicossocial deles está marcado como SUS. Confirme por telefone.
+- **Outros CAPS:** a busca devolveu só uma parte das 49 unidades com serviço psicossocial no município, e entre elas só CAPS AD. Pode haver CAPS para outros perfis, como adultos ou crianças. A UBS pode indicar o CAPS de referência.
+
+**UBS mais próximas do seu CEP (para o encaminhamento):**
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Três de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+
+As distâncias das UBS são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+servico_saude_mental_poa,servico,3,True,,buscar_por_servico > listar_tipos_unidade,2,True,0,0,,,18,18,True,,16798,1799,0.05159,13.19,12.08,0.0,,,"Encontrei 49 unidades com atenção psicossocial em Porto Alegre. Abaixo estão 5 delas. A busca não calculou a distância até o seu CEP (Moinhos de Vento), então não sei dizer quais ficam mais perto. Use os links do mapa para conferir.
+
+1. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone não informado. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+2. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simoes Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: 24 horas, inclusive fins de semana e feriados. Tem serviço hospitalar de saúde mental e atendimento psicossocial pelo SUS. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+3. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: 24 horas, inclusive fins de semana e feriados. Tem serviço hospitalar de saúde mental. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+4. **CAPS AD III CAMINHOS DO SOL LENO** (CNES 9752692): Av Protásio Alves, 7585, Petrópolis. Telefone não informado. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20CAMINHOS%20DO%20SOL%20LENO%2C%20AV%20PROTASIO%20ALVES%2C%207585%2C%20PETROPOLIS%2C%2091310-003)
+5. **CAPS AD III GIRASSOL RESTINGA EXTREMO SUL** (CNES 9752706): Av João Antônio da Silveira, 440, Restinga. Telefone: 5132487704. Turno: 24 horas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20GIRASSOL%20RESTINGA%20EXTREMO%20SUL%2C%20AV%20JOAO%20ANTONIO%20DA%20SILVEIRA%2C%20440%2C%20RESTINGA%2C%2091790-612)
+
+**Pontos de atenção**
+- No cadastro, as unidades 4 e 5 aparecem como ""não SUS"" no dado geral da unidade, mas o serviço psicossocial delas está marcado como SUS. Confirme por telefone se atendem pelo SUS.
+- Os CAPS AD, pelo nome, são voltados a álcool e outras drogas. Pergunte se a unidade atende o seu caso.
+- No SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar a UBS de referência do seu endereço. Posso buscar as UBS mais próximas do seu CEP, se quiser.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servicos_da_ubs_santa_cecilia,servico,1,True,,servicos_do_estabelecimento > detalhar_estabelecimento,2,True,0,0,,,3,3,True,,14132,654,0.0348,5.83,4.9,0.0,,,"**UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382) é um Centro de Saúde/Unidade Básica. Fica na Rua São Manoel, 543, bairro Santa Cecília, em Porto Alegre. O telefone é 51 33598585. Atende nos turnos da manhã, tarde e noite. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+**Serviços cadastrados (todos pelo SUS, em atendimento ambulatorial):**
+- **Atenção primária:** Estratégia de Saúde da Família, atenção multiprofissional e atenção primária.
+- **Pré-natal, parto e nascimento:** acompanhamento do pré-natal.
+- **Controle de tabagismo:** abordagem e tratamento do fumante.
+- **Imunização (vacinas):** para indivíduos em geral.
+
+Para serviços especializados, o SUS geralmente exige encaminhamento da UBS (posto de saúde). Por isso, o primeiro passo é procurar a UBS de referência.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servicos_da_ubs_santa_cecilia,servico,2,True,,servicos_do_estabelecimento > detalhar_estabelecimento,2,True,0,0,,,3,3,True,,14132,656,0.03482,5.87,5.01,0.0,,,"**UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382) é um Centro de Saúde/Unidade Básica. Fica na Rua São Manoel, 543, bairro Santa Cecília, em Porto Alegre. Telefone: 51 33598585. Turno: manhã, tarde e noite. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+Serviços cadastrados no CNES (todos pelo SUS, em atendimento ambulatorial):
+- **Atenção primária**: Estratégia de Saúde da Família, atenção multiprofissional e atenção primária.
+- **Pré-natal, parto e nascimento**: acompanhamento do pré-natal.
+- **Controle de tabagismo**: abordagem e tratamento do fumante.
+- **Imunização**: vacinação para indivíduos em geral.
+
+Para atendimento especializado pelo SUS, normalmente é preciso um encaminhamento da UBS (posto de saúde). Por isso, o primeiro passo é procurar a UBS de referência.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servicos_da_ubs_santa_cecilia,servico,3,True,,servicos_do_estabelecimento > detalhar_estabelecimento,2,True,0,0,,,3,3,True,,14132,644,0.0347,5.82,4.87,0.0,,,"**UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382) é um Centro de Saúde/Unidade Básica. Fica na Rua São Manoel, 543, bairro Santa Cecília, em Porto Alegre. Telefone: 51 33598585. Atende de manhã, à tarde e à noite. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+**Serviços cadastrados (todos SUS, ambulatoriais):**
+- **Atenção primária:** Estratégia de Saúde da Família, atenção multiprofissional e atenção primária.
+- **Pré-natal, parto e nascimento:** acompanhamento do pré-natal.
+- **Controle do tabagismo:** abordagem e tratamento do fumante.
+- **Imunização (vacinas):** para indivíduos em geral.
+
+No SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). Por isso, o primeiro passo é procurar a UBS de referência.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_inexistente_andre_da_rocha,sem_unidade,1,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,13600,770,0.0349,7.12,6.26,0.0,,,"**Não encontrei tratamento oncológico (quimioterapia, radioterapia ou cirurgia de câncer) em André da Rocha.** O CNES lista só uma unidade que casou com ""oncologia"" no município, e ela oferece apenas um serviço de apoio:
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+   - Serviço cadastrado: fisioterapia para alterações oncológicas (SUS, ambulatorial). É reabilitação, não tratamento do câncer em si.
+
+**Como seguir pelo SUS:** o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar o posto acima, que provavelmente é a sua UBS de referência. A equipe pode encaminhar você, pela regulação, a um hospital habilitado em oncologia em outro município. Posso buscar serviços de oncologia em cidades vizinhas, mas a ferramenta só consulta o município do CEP informado. Se você tiver um CEP de uma cidade próxima, como a sede da região, eu faço essa busca.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_inexistente_andre_da_rocha,sem_unidade,2,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,13600,779,0.03499,7.34,6.43,0.0,,,"**Não encontrei tratamento oncológico (quimioterapia, radioterapia ou cirurgia de câncer) em André da Rocha.** O único registro com ""oncologia"" no CNES do município é um serviço de fisioterapia para alterações oncológicas. Ele serve para reabilitação, não para o tratamento do câncer em si.
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+   - Serviço cadastrado: assistência fisioterapêutica em alterações oncológicas (SUS, ambulatorial).
+
+**Como seguir pelo SUS:** o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar esse posto, que é a UBS de referência do município. Ele pode encaminhar para um serviço de oncologia em outro município, normalmente na região. Se quiser, posso buscar serviços de oncologia em uma cidade vizinha. Para isso, preciso do CEP de lá.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_inexistente_andre_da_rocha,sem_unidade,3,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,13600,707,0.03427,6.62,5.8,0.0,,,"**Não encontrei tratamento oncológico (de câncer) em André da Rocha.** O único registro que apareceu no CNES com ""oncologia"" é de fisioterapia, não de tratamento do câncer:
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+   - Serviço cadastrado: assistência fisioterapêutica em alterações oncológicas (SUS, ambulatorial). Isso é reabilitação, não quimioterapia, radioterapia ou consulta com oncologista.
+
+**Como chegar ao tratamento pelo SUS:** o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). O primeiro passo é procurar esse posto, que é a UBS de referência do município. Lá a equipe pode encaminhar para um serviço de oncologia em outra cidade da região. Posso procurar serviços de oncologia em um município vizinho, se você me passar o CEP de lá.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."

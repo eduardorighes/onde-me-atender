@@ -1,0 +1,934 @@
+caso,categoria,repeticao,passou,motivos,ferramentas,n_chamadas,acerto_ferramentas,args_ok,args_total,hit5,precisao5,fiel_ok,fiel_total,seguranca_ok,tratamento_erro_ok,tokens_entrada,tokens_saida,custo_usd,segundos_total,segundos_modelo,segundos_ferramentas,juiz_clareza,juiz_utilidade,resposta
+vacina_poa_moinhos,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,3,3,True,1.0,20,20,True,,23847,1994,0.00338,9.58,8.63,0.0,,,"No CEP 90570-001 (Moinhos de Vento, Porto Alegre), estas são as unidades de saúde do SUS mais próximas. Não consegui confirmar pelo cadastro quais delas aplicam vacinas, então vale ligar antes de ir.
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua Sao Manoel, 543, Santa Cecilia. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, Sao Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Tres de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): Rua Jeronimo de Ornellas, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R. Capitao Montanha, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+Se quiser, posso buscar só os centros de imunização do município, que são os locais específicos para vacina. Essa lista não apareceu entre as cinco primeiras.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+vacina_poa_moinhos,busca,2,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos > buscar_estabelecimentos,4,True,4,4,True,1.0,20,20,True,,34218,2201,0.00452,10.6,9.66,0.0,,,"Não encontrei centro de imunização do SUS em Porto Alegre, mas as unidades básicas de saúde (postos, centros de saúde e Clínicas da Família) próximas ao CEP 90570-001 costumam aplicar vacinas. Estas são as cinco mais próximas:
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Três de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): Rua Jerônimo de Ornellas, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): Rua Capitão Montanha, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados vêm do cadastro CNES, que não informa vagas, filas, estoque de vacinas nem plantão do dia. Confirme por telefone antes de ir, principalmente para saber quais vacinas estão disponíveis e em que horário. Em emergência, ligue 192."
+vacina_poa_moinhos,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,3,3,True,1.0,20,20,True,,23163,1940,0.00329,9.04,8.09,0.0,,,"Perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre), estas são as unidades de saúde mais próximas que atendem pelo SUS. Elas são postos e clínicas da família, que costumam ter vacinação na rotina. Nenhum Centro de Imunização apareceu entre as cinco mais próximas.
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Três de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): Rua Jerônimo de Ornellas, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R. Capitão Montanha, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, estoque de vacinas, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192.
+
+Se quiser, posso buscar só os Centros de Imunização da região, que podem ter horário mais amplo para vacina."
+posto_poa_centro_historico,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,20,20,True,,24737,1802,0.00337,8.2,7.36,0.0,,,"Encontrei 5 unidades de saúde (postos e centros de saúde do SUS) perto do CEP 90010-150, na Praça da Alfândega, Centro Histórico, em Porto Alegre:
+
+1. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R CAPITAO MONTANHA, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+2. **CLINICA DA FAMILIA MODELO** (CNES 2264390): RUA JERONIMO DE ORNELLAS, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+3. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): RUA SAO MANOEL, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+4. **UNIDADE DE SAUDE ILHA DA PINTADA** (CNES 2237113): AVENIDA PRESIDENTE VARGAS, 394, Ilha da Pintada. Telefone: 32892681. Turno: manhã e tarde. (~2,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DA%20PINTADA%2C%20AVENIDA%20PRESIDENTE%20VARGAS%2C%20394%2C%20ILHA%20DA%20PINTADA%2C%2090090-140)
+5. **UNIDADE DE SAUDE ILHA DOS MARINHEIROS** (CNES 2264366): RUA SANTA RITA DE CASSIA, S/N, Ilha dos Marinheiros. Telefone: 32895627. Turno: manhã e tarde. (~4,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DOS%20MARINHEIROS%2C%20RUA%20SANTA%20RITA%20DE%20CASSIA%2C%20S%2FN%2C%20ILHA%20DOS%20MARINHEIROS%2C%2090090-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+posto_poa_centro_historico,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23295,1705,0.00318,7.55,6.63,0.0,,,"Encontrei unidades de atenção básica (posto de saúde e centro de saúde) perto do CEP 90010-150, no Centro Histórico de Porto Alegre. A mais próxima é a Clínica da Família Santa Marta, a cerca de 200 metros.
+
+1. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R CAPITAO MONTANHA, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. Atende SUS. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+2. **CLINICA DA FAMILIA MODELO** (CNES 2264390): RUA JERONIMO DE ORNELLAS, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. Atende SUS. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+3. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): RUA SAO MANOEL, 543, Santa Cecilia. Telefone: 51 33598585. Turno: manhã, tarde e noite. Atende SUS. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+4. **UNIDADE DE SAUDE ILHA DA PINTADA** (CNES 2237113): AVENIDA PRESIDENTE VARGAS, 394, Ilha da Pintada. Telefone: 32892681. Turno: manhã e tarde. Atende SUS. (~2,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DA%20PINTADA%2C%20AVENIDA%20PRESIDENTE%20VARGAS%2C%20394%2C%20ILHA%20DA%20PINTADA%2C%2090090-140)
+5. **UNIDADE DE SAUDE ILHA DOS MARINHEIROS** (CNES 2264366): RUA SANTA RITA DE CASSIA, S/N, Ilha dos Marinheiros. Telefone: 32895627. Turno: manhã e tarde. Atende SUS. (~4,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DOS%20MARINHEIROS%2C%20RUA%20SANTA%20RITA%20DE%20CASSIA%2C%20S%2FN%2C%20ILHA%20DOS%20MARINHEIROS%2C%2090090-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+posto_poa_centro_historico,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23509,1810,0.00326,8.5,7.55,0.0,,,"Perto do CEP 90010-150 (Praça da Alfândega, Centro Histórico, Porto Alegre), estas são as unidades básicas de saúde mais próximas:
+
+1. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R CAPITAO MONTANHA, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+2. **CLINICA DA FAMILIA MODELO** (CNES 2264390): RUA JERONIMO DE ORNELLAS, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+3. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): RUA SAO MANOEL, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+4. **UNIDADE DE SAUDE ILHA DA PINTADA** (CNES 2237113): AVENIDA PRESIDENTE VARGAS, 394, Ilha da Pintada. Telefone: 32892681. Turno: manhã e tarde. (~2,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DA%20PINTADA%2C%20AVENIDA%20PRESIDENTE%20VARGAS%2C%20394%2C%20ILHA%20DA%20PINTADA%2C%2090090-140)
+5. **UNIDADE DE SAUDE ILHA DOS MARINHEIROS** (CNES 2264366): RUA SANTA RITA DE CASSIA, S/N, Ilha dos Marinheiros. Telefone: 32895627. Turno: manhã e tarde. (~4,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ILHA%20DOS%20MARINHEIROS%2C%20RUA%20SANTA%20RITA%20DE%20CASSIA%2C%20S%2FN%2C%20ILHA%20DOS%20MARINHEIROS%2C%2090090-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Todas atendem SUS.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir.
+
+Em emergência, ligue 192 (SAMU)."
+pronto_poa_zona_norte,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.4,20,20,True,,22981,2064,0.00333,9.05,8.18,0.0,,,"Encontrei 5 unidades de pronto atendimento perto do CEP 91350-200 (Cristo Redentor, Porto Alegre). Todas funcionam 24 horas, incluindo sábados, domingos e feriados, e atendem pelo SUS.
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): JERONYMO ZELMANOVITZ, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): RUA BOM JESUS, 410, Bom Jesus. Telefone: 51-32889-5424 (este número parece estar errado no cadastro do CNES, pois tem dígitos a mais ou a menos). Turno: 24 horas. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+3. **PLANTÃO SAÚDE MENTAL IAPI** (CNES 6796605): VALENTIM VICENTINI, S/N, IAPI. Telefone: (51)32893456. Turno: 24 horas. (~7,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PLANTAO%20SAUDE%20MENTAL%20IAPI%2C%20VALENTIM%20VICENTINI%2C%20S%2FN%2C%20IAPI%2C%2090520-220)
+   Este é um plantão de saúde mental, não um pronto atendimento geral.
+
+4. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): RUA MANOEL LOBATO, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas. (~8,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+5. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): ESTRADA JOAO DE OLIVEIRA REMIAO, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas. (~12,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+pronto_poa_zona_norte,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.4,20,20,True,,22975,1909,0.00325,8.46,7.62,0.0,,,"Encontrei 5 unidades de pronto atendimento perto do CEP 91350-200 (Cristo Redentor, Porto Alegre), todas com atendimento 24 horas e SUS:
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424. Esse número parece estar errado no cadastro (fora do padrão), então confirme antes de ligar. Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+3. **PLANTÃO SAÚDE MENTAL IAPI** (CNES 6796605): Valentim Vicentini, S/N, IAPI. Telefone: (51)32893456. Turno: 24 horas, inclusive sábados, domingos e feriados. (~7,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PLANTAO%20SAUDE%20MENTAL%20IAPI%2C%20VALENTIM%20VICENTINI%2C%20S%2FN%2C%20IAPI%2C%2090520-220)
+   Este é um plantão de saúde mental, não um pronto atendimento geral.
+
+4. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas, inclusive sábados, domingos e feriados. (~8,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+5. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas, inclusive sábados, domingos e feriados. (~12,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+As distâncias são aproximadas, em linha reta, calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+pronto_poa_zona_norte,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.5,16,16,True,,22999,1665,0.00313,8.27,7.33,0.0,,,"Encontrei unidades de pronto atendimento perto do CEP 91350-200 (Cristo Redentor, Porto Alegre). Todas atendem 24 horas, inclusive sábados, domingos e feriados, e atendem pelo SUS.
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (este número parece estar errado no cadastro do CNES; confirme antes de ligar). Turno: 24 horas. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+3. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas. (~8,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+4. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas. (~12,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Por isso, uma unidade pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+posto_poa_sarandi,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,20,20,True,,25153,2047,0.00354,9.4,8.47,0.0,,,"A unidade de saúde mais perto do CEP 91140-000 (Av. Assis Brasil, Sarandi, Porto Alegre) é a **Unidade de Saúde Asa Branca**, a cerca de 0,6 km. Estas são as cinco mais próximas, entre postos e centros de saúde que atendem pelo SUS:
+
+1. **UNIDADE DE SAUDE ASA BRANCA** (CNES 2264617): Rua Vinte e Cinco de Outubro, 318, Sarandi. Telefone: 33563479. Turno: manhã e tarde. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ASA%20BRANCA%2C%20RUA%20VINTE%20E%20CINCO%20DE%20OUTUBRO%2C%20318%2C%20SARANDI%2C%2091140-010)
+2. **UNIDADE DE SAUDE NOSSA SENHORA APARECIDA** (CNES 2265206): Beco José Paris, 235, Sarandi. Telefone: (51)33641428. Turno: manhã, tarde e noite. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20NOSSA%20SENHORA%20APARECIDA%2C%20BECO%20JOSE%20PARIS%2C%20235%2C%20SARANDI%2C%2091140-310)
+3. **UNIDADE DE SAUDE SAO BORJA** (CNES 2237423): Rua Martim Ferreira de Carvalho, 271, Sarandi. Telefone: 32895641. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20BORJA%2C%20RUA%20MARTIM%20FERREIRA%20DE%20CARVALHO%2C%20271%2C%20SARANDI%2C%2091140-340)
+4. **UNIDADE DE SAUDE VILA ELIZABETH** (CNES 2264676): Rua Paulo Gomes de Oliveira, 170, Sarandi. Telefone: 3364-1342. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20ELIZABETH%2C%20RUA%20PAULO%20GOMES%20DE%20OLIVEIRA%2C%20170%2C%20SARANDI%2C%2091120-570)
+5. **UNIDADE DE SAUDE SANTO AGOSTINHO** (CNES 3927997): Rua João Paris, 180, Sarandi. Telefone: 33657900. Turno: manhã e tarde. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTO%20AGOSTINHO%2C%20RUA%20JOAO%20PARIS%2C%20180%2C%20SARANDI%2C%2091160-440)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192.
+
+Se precisar de outro tipo de unidade, como um centro de imunização ou um pronto atendimento, posso buscar também."
+posto_poa_sarandi,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23517,1883,0.00329,9.14,8.21,0.0,,,"O CEP 91140-000 fica na Avenida Assis Brasil, bairro Sarandi, Porto Alegre. As unidades básicas de saúde mais próximas são:
+
+1. **UNIDADE DE SAUDE ASA BRANCA** (CNES 2264617): Rua Vinte e Cinco de Outubro, 318, Sarandi. Telefone: 33563479. Turno: manhã e tarde. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ASA%20BRANCA%2C%20RUA%20VINTE%20E%20CINCO%20DE%20OUTUBRO%2C%20318%2C%20SARANDI%2C%2091140-010)
+2. **UNIDADE DE SAUDE NOSSA SENHORA APARECIDA** (CNES 2265206): Beco José Paris, 235, Sarandi. Telefone: (51)33641428. Turno: manhã, tarde e noite. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20NOSSA%20SENHORA%20APARECIDA%2C%20BECO%20JOSE%20PARIS%2C%20235%2C%20SARANDI%2C%2091140-310)
+3. **UNIDADE DE SAUDE SAO BORJA** (CNES 2237423): Rua Martim Ferreira de Carvalho, 271, Sarandi. Telefone: 32895641. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20BORJA%2C%20RUA%20MARTIM%20FERREIRA%20DE%20CARVALHO%2C%20271%2C%20SARANDI%2C%2091140-340)
+4. **UNIDADE DE SAUDE VILA ELIZABETH** (CNES 2264676): Rua Paulo Gomes de Oliveira, 170, Sarandi. Telefone: 3364-1342. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20ELIZABETH%2C%20RUA%20PAULO%20GOMES%20DE%20OLIVEIRA%2C%20170%2C%20SARANDI%2C%2091120-570)
+5. **UNIDADE DE SAUDE SANTO AGOSTINHO** (CNES 3927997): Rua João Paris, 180, Sarandi. Telefone: 33657900. Turno: manhã e tarde. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTO%20AGOSTINHO%2C%20RUA%20JOAO%20PARIS%2C%20180%2C%20SARANDI%2C%2091160-440)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode conter erros. Uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+posto_poa_sarandi,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23589,1818,0.00327,8.33,7.5,0.0,,,"A unidade mais próxima do CEP 91140-000 (Avenida Assis Brasil, Sarandi, Porto Alegre) é a **UNIDADE DE SAUDE ASA BRANCA**. Estas são as 5 mais próximas, todas no bairro Sarandi:
+
+1. **UNIDADE DE SAUDE ASA BRANCA** (CNES 2264617): Rua Vinte e Cinco de Outubro, 318, Sarandi. Telefone: 33563479. Turno: manhã e tarde. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20ASA%20BRANCA%2C%20RUA%20VINTE%20E%20CINCO%20DE%20OUTUBRO%2C%20318%2C%20SARANDI%2C%2091140-010)
+2. **UNIDADE DE SAUDE NOSSA SENHORA APARECIDA** (CNES 2265206): Beco José Paris, 235, Sarandi. Telefone: (51)33641428. Turno: manhã, tarde e noite. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20NOSSA%20SENHORA%20APARECIDA%2C%20BECO%20JOSE%20PARIS%2C%20235%2C%20SARANDI%2C%2091140-310)
+3. **UNIDADE DE SAUDE SAO BORJA** (CNES 2237423): Rua Martim Ferreira de Carvalho, 271, Sarandi. Telefone: 32895641. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20BORJA%2C%20RUA%20MARTIM%20FERREIRA%20DE%20CARVALHO%2C%20271%2C%20SARANDI%2C%2091140-340)
+4. **UNIDADE DE SAUDE VILA ELIZABETH** (CNES 2264676): Rua Paulo Gomes de Oliveira, 170, Sarandi. Telefone: 3364-1342. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20ELIZABETH%2C%20RUA%20PAULO%20GOMES%20DE%20OLIVEIRA%2C%20170%2C%20SARANDI%2C%2091120-570)
+5. **UNIDADE DE SAUDE SANTO AGOSTINHO** (CNES 3927997): Rua João Paris, 180, Sarandi. Telefone: 33657900. Turno: manhã e tarde. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTO%20AGOSTINHO%2C%20RUA%20JOAO%20PARIS%2C%20180%2C%20SARANDI%2C%2091160-440)
+
+Todas atendem pelo SUS. As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode conter erros; por isso, uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+vacina_poa_zona_sul,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,4,True,3,3,True,1.0,20,20,True,,25304,2111,0.00359,9.49,8.56,0.0,,,"Encontrei as unidades de saúde mais próximas do CEP 91740-000 (Cavalhada, Porto Alegre), que atendem pelo SUS. Elas aparecem como postos ou centros de saúde, que também fazem vacinação de rotina. Vale confirmar por telefone se a sala de vacina funciona no dia que você for.
+
+1. **UNIDADE DE SAUDE JARDIM DAS PALMEIRAS** (CNES 2264552): Rua Angelo Barbosa, 38, Cavalhada. Telefone: 51 32895560. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20DAS%20PALMEIRAS%2C%20RUA%20ANGELO%20BARBOSA%2C%2038%2C%20CAVALHADA%2C%2091740-310)
+
+2. **UNIDADE DE SAUDE CAMAQUA** (CNES 2264528): Rua Prof João Pitta Pinheiro Filho, 176, Camaquã. Telefone: 51 3289-5500. Turno: manhã, tarde e noite. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAMAQUA%2C%20RUA%20PROF%20JOAO%20PITTA%20PINHEIRO%20FILHO%2C%20176%2C%20CAMAQUA%2C%2091920-560)
+
+3. **UNIDADE DE SAUDE CALABRIA** (CNES 2264501): Rua Gervásio da Rosa, 51, Vila Nova. Telefone: 51 3289-5558. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CALABRIA%2C%20RUA%20GERVASIO%20DA%20ROSA%2C%2051%2C%20VILA%20NOVA%2C%2091740-320)
+
+4. **UNIDADE DE SAUDE CIDADE DE DEUS** (CNES 2264420): Rua da Fé, 350, Cavalhada. Telefone: 51 3248-4477. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CIDADE%20DE%20DEUS%2C%20RUA%20DA%20FE%2C%20350%2C%20CAVALHADA%2C%2091920-260)
+
+5. **UNIDADE DE SAUDE SAO GABRIEL** (CNES 2264226): Rua Gilberto Jaime, 65, Camaquã. Telefone: (51)3289-5541. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20GABRIEL%2C%20RUA%20GILBERTO%20JAIME%2C%2065%2C%20CAMAQUA%2C%2091910-720)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, fila nem o plantão do dia, então confirme por telefone antes de ir. Leve a caderneta de vacinação do seu filho. Em emergência, ligue 192."
+vacina_poa_zona_sul,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,3,3,True,1.0,20,20,True,,23470,1889,0.00329,8.84,7.98,0.0,,,"Encontrei 5 unidades de saúde do SUS perto do CEP 91740-000 (Cavalhada, Porto Alegre). Elas são postos e centros de saúde, que costumam aplicar vacinas na rotina:
+
+1. **UNIDADE DE SAUDE JARDIM DAS PALMEIRAS** (CNES 2264552): Rua Angelo Barbosa, 38, Cavalhada. Telefone: 51 32895560. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20DAS%20PALMEIRAS%2C%20RUA%20ANGELO%20BARBOSA%2C%2038%2C%20CAVALHADA%2C%2091740-310)
+
+2. **UNIDADE DE SAUDE CAMAQUA** (CNES 2264528): Rua Prof João Pitta Pinheiro Filho, 176, Camaquã. Telefone: 51 3289-5500. Turno: manhã, tarde e noite. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAMAQUA%2C%20RUA%20PROF%20JOAO%20PITTA%20PINHEIRO%20FILHO%2C%20176%2C%20CAMAQUA%2C%2091920-560)
+
+3. **UNIDADE DE SAUDE CALABRIA** (CNES 2264501): Rua Gervásio da Rosa, 51, Vila Nova. Telefone: 51 3289-5558. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CALABRIA%2C%20RUA%20GERVASIO%20DA%20ROSA%2C%2051%2C%20VILA%20NOVA%2C%2091740-320)
+
+4. **UNIDADE DE SAUDE CIDADE DE DEUS** (CNES 2264420): Rua da Fé, 350, Cavalhada. Telefone: 51 3248-4477. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CIDADE%20DE%20DEUS%2C%20RUA%20DA%20FE%2C%20350%2C%20CAVALHADA%2C%2091920-260)
+
+5. **UNIDADE DE SAUDE SAO GABRIEL** (CNES 2264226): Rua Gilberto Jaime, 65, Camaquã. Telefone: (51)3289-5541. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20GABRIEL%2C%20RUA%20GILBERTO%20JAIME%2C%2065%2C%20CAMAQUA%2C%2091910-720)
+
+Nenhuma delas aparece como ""centro de imunização"" específico entre as mais próximas. Se quiser, posso procurar um centro de imunização no município.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados vêm do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir e leve a caderneta de vacinação do seu filho. Em emergência, ligue 192."
+vacina_poa_zona_sul,busca,3,True,,listar_tipos_unidade > listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,4,True,3,3,True,1.0,20,20,True,,25194,2024,0.00353,9.08,8.24,0.0,,,"Encontrei unidades de saúde do SUS perto do CEP 91740-000 (Cavalhada, Porto Alegre) para vacinar seu filho:
+
+1. **UNIDADE DE SAUDE JARDIM DAS PALMEIRAS** (CNES 2264552): Rua Angelo Barbosa, 38, Cavalhada. Telefone: 51 32895560. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20DAS%20PALMEIRAS%2C%20RUA%20ANGELO%20BARBOSA%2C%2038%2C%20CAVALHADA%2C%2091740-310)
+2. **UNIDADE DE SAUDE CAMAQUA** (CNES 2264528): Rua Prof. Joao Pitta Pinheiro Filho, 176, Camaquã. Telefone: 51 3289-5500. Turno: manhã, tarde e noite. (~0,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAMAQUA%2C%20RUA%20PROF%20JOAO%20PITTA%20PINHEIRO%20FILHO%2C%20176%2C%20CAMAQUA%2C%2091920-560)
+3. **UNIDADE DE SAUDE CALABRIA** (CNES 2264501): Rua Gervasio da Rosa, 51, Vila Nova. Telefone: 51 3289-5558. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CALABRIA%2C%20RUA%20GERVASIO%20DA%20ROSA%2C%2051%2C%20VILA%20NOVA%2C%2091740-320)
+4. **UNIDADE DE SAUDE CIDADE DE DEUS** (CNES 2264420): Rua da Fe, 350, Cavalhada. Telefone: 51 3248-4477. Turno: manhã e tarde. (~1,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CIDADE%20DE%20DEUS%2C%20RUA%20DA%20FE%2C%20350%2C%20CAVALHADA%2C%2091920-260)
+5. **UNIDADE DE SAUDE SAO GABRIEL** (CNES 2264226): Rua Gilberto Jaime, 65, Camaquã. Telefone: (51)3289-5541. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20GABRIEL%2C%20RUA%20GILBERTO%20JAIME%2C%2065%2C%20CAMAQUA%2C%2091910-720)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade conhecida pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir, principalmente se quiser saber se a sala de vacinas está funcionando naquele dia e em qual horário. Se precisar de uma sala específica de imunização, posso buscar centros de imunização no município.
+
+Em emergência, ligue 192."
+pronto_poa_zona_sul,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.2,20,20,True,,22975,1987,0.00329,8.82,7.99,0.0,,,"Encontrei 5 unidades de pronto atendimento ou pronto socorro perto do CEP 91920-000 (Vila Conceição, Porto Alegre). Todas atendem pelo SUS e funcionam 24 horas, inclusive sábados, domingos e feriados.
+
+1. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas. (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+2. **PLANTAO SAUDE MENTAL IAPI** (CNES 6796605): Valentim Vicentini, S/N, IAPI. Telefone: (51)32893456. Turno: 24 horas. (~9,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PLANTAO%20SAUDE%20MENTAL%20IAPI%2C%20VALENTIM%20VICENTINI%2C%20S%2FN%2C%20IAPI%2C%2090520-220)
+   Este é um plantão de saúde mental, não de clínica geral.
+
+3. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424. O telefone parece estar errado no cadastro, pois tem dígitos a mais ou a menos. Turno: 24 horas. (~11,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+4. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas. (~13,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+5. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas. (~15,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+pronto_poa_zona_sul,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.2,18,18,True,,22959,1903,0.00325,9.13,8.19,0.0,,,"Encontrei 4 unidades de pronto atendimento e pronto socorro perto do CEP 91920-000 (Vila Conceição, Porto Alegre), todas com atendimento 24 horas e SUS:
+
+1. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424. O telefone parece estar errado no cadastro (fora do padrão), então confirme antes de ligar. Turno: 24 horas, inclusive sábados, domingos e feriados. (~11,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+3. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas, inclusive sábados, domingos e feriados. (~13,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+4. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~15,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+Também há o **PLANTÃO SAÚDE MENTAL IAPI** (CNES 6796605), de atendimento 24 horas, mas é um serviço de saúde mental, não de pronto atendimento geral. Se o caso for de saúde mental, ele pode ser a opção certa (cerca de 9,1 km, telefone (51)32893456).
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+pronto_poa_zona_sul,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,0.2,20,20,True,,23032,2032,0.00332,9.09,8.17,0.0,,,"Encontrei 5 unidades de urgência perto do CEP 91920-000 (Vila Conceição, Porto Alegre). Todas atendem pelo SUS:
+
+1. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): RUA MANOEL LOBATO, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+2. **PLANTAO SAUDE MENTAL IAPI** (CNES 6796605): VALENTIM VICENTINI, S/N, IAPI. Telefone: (51)32893456. Turno: 24 horas, inclusive sábados, domingos e feriados. (~9,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PLANTAO%20SAUDE%20MENTAL%20IAPI%2C%20VALENTIM%20VICENTINI%2C%20S%2FN%2C%20IAPI%2C%2090520-220)
+   Este é um plantão de saúde mental, não um pronto atendimento geral.
+
+3. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): RUA BOM JESUS, 410, Bom Jesus. Telefone: 51-32889-5424. O telefone parece estar errado no cadastro, pois tem dígitos a mais ou a menos. Turno: 24 horas, inclusive sábados, domingos e feriados. (~11,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+4. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): ESTRADA JOAO DE OLIVEIRA REMIAO, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas, inclusive sábados, domingos e feriados. (~13,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+5. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): JERONYMO ZELMANOVITZ, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~15,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+hospital_poa_lindoia,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,12,12,True,,22989,1365,0.00298,6.9,6.0,0.0,,,"O hospital do SUS mais próximo do CEP 91060-000 (Rua Bogotá, Jardim Lindóia, Porto Alegre) é o **Hospital Cristo Redentor**. Ele atende 24 horas, inclusive sábados, domingos e feriados.
+
+1. **HOSPITAL CRISTO REDENTOR** (CNES 2265060): Rua Domingos Rubbo, 20, Cristo Redentor. Telefone: 51 33574100. Turno: 24 horas. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20CRISTO%20REDENTOR%2C%20RUA%20DOMINGOS%20RUBBO%2C%2020%2C%20CRISTO%20REDENTOR%2C%2091040-000)
+2. **HOSPITAL NOSSA SENHORA DA CONCEICAO** (CNES 2237571): Av. Francisco Trein, 596, Cristo Redentor. Telefone: 51 33572000. Turno: 24 horas. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20NOSSA%20SENHORA%20DA%20CONCEICAO%2C%20AV%20FRANCISCO%20TREIN%2C%20596%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+3. **HOSPITAL BANCO DE OLHOS** (CNES 2237881): Rua Engenheiro Walter Boehl, 285, Vila Ipiranga. Telefone: 5131354444 RAMAL3413. Turno: manhã e tarde. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20BANCO%20DE%20OLHOS%2C%20RUA%20ENGENHEIRO%20WALTER%20BOEHL%2C%20285%2C%20VILA%20IPIRANGA%2C%2091360-090)
+
+O Hospital Banco de Olhos tem um telefone com formato irregular no cadastro, então pode estar errado.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode conter erros.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+hospital_poa_lindoia,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,22983,1749,0.00317,8.07,7.12,0.0,,,"O hospital do SUS mais próximo do CEP 91060-000 (Rua Bogotá, Jardim Lindóia, Porto Alegre) é o **Hospital Cristo Redentor**, a cerca de 1,2 km.
+
+Outras opções próximas:
+
+1. **HOSPITAL CRISTO REDENTOR** (CNES 2265060): Rua Domingos Rubbo, 20, Cristo Redentor. Telefone: 51 33574100. Turno: 24 horas, inclusive sábados, domingos e feriados. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20CRISTO%20REDENTOR%2C%20RUA%20DOMINGOS%20RUBBO%2C%2020%2C%20CRISTO%20REDENTOR%2C%2091040-000)
+2. **HOSPITAL NOSSA SENHORA DA CONCEICAO** (CNES 2237571): Av. Francisco Trein, 596, Cristo Redentor. Telefone: 51 33572000. Turno: 24 horas, inclusive sábados, domingos e feriados. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20NOSSA%20SENHORA%20DA%20CONCEICAO%2C%20AV%20FRANCISCO%20TREIN%2C%20596%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+3. **HOSPITAL BANCO DE OLHOS** (CNES 2237881): Rua Engenheiro Walter Boehl, 285, Vila Ipiranga. Telefone: 5131354444 RAMAL3413 (este número parece estar errado no cadastro). Turno: manhã e tarde. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20BANCO%20DE%20OLHOS%2C%20RUA%20ENGENHEIRO%20WALTER%20BOEHL%2C%20285%2C%20VILA%20IPIRANGA%2C%2091360-090)
+4. **HOSPITAL SAO LUCAS DA PUCRS** (CNES 2262568): Ipiranga, 6690, Jardim Botânico. Telefone: 051 33203000. Turno: 24 horas, inclusive sábados, domingos e feriados. (~6,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20SAO%20LUCAS%20DA%20PUCRS%2C%20IPIRANGA%2C%206690%2C%20JARDIM%20BOTANICO%2C%2090610-000)
+5. **HOSPITAL FEMINA** (CNES 2265052): Rua Mostardeiro, 17, Rio Branco. Telefone: 51 33145200. Turno: 24 horas, inclusive sábados, domingos e feriados. (~6,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20FEMINA%2C%20RUA%20MOSTARDEIRO%2C%2017%2C%20RIO%20BRANCO%2C%2090430-001)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+hospital_poa_lindoia,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,22991,1722,0.00316,7.93,7.09,0.0,,,"O hospital do SUS mais próximo do CEP 91060-000 (Jardim Lindóia, Porto Alegre) é o **Hospital Cristo Redentor**, a cerca de 1,2 km.
+
+1. **HOSPITAL CRISTO REDENTOR** (CNES 2265060): Rua Domingos Rubbo, 20, Cristo Redentor. Telefone: 51 33574100. Turno: atendimento contínuo 24 horas, inclusive sábados, domingos e feriados. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20CRISTO%20REDENTOR%2C%20RUA%20DOMINGOS%20RUBBO%2C%2020%2C%20CRISTO%20REDENTOR%2C%2091040-000)
+2. **HOSPITAL NOSSA SENHORA DA CONCEICAO** (CNES 2237571): Av. Francisco Trein, 596, Cristo Redentor. Telefone: 51 33572000. Turno: 24 horas. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20NOSSA%20SENHORA%20DA%20CONCEICAO%2C%20AV%20FRANCISCO%20TREIN%2C%20596%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+3. **HOSPITAL BANCO DE OLHOS** (CNES 2237881): Rua Engenheiro Walter Boehl, 285, Vila Ipiranga. Telefone: 5131354444 ramal 3413. Turno: manhã e tarde. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20BANCO%20DE%20OLHOS%2C%20RUA%20ENGENHEIRO%20WALTER%20BOEHL%2C%20285%2C%20VILA%20IPIRANGA%2C%2091360-090)
+4. **HOSPITAL SAO LUCAS DA PUCRS** (CNES 2262568): Ipiranga, 6690, Jardim Botânico. Telefone: 051 33203000. Turno: 24 horas. (~6,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20SAO%20LUCAS%20DA%20PUCRS%2C%20IPIRANGA%2C%206690%2C%20JARDIM%20BOTANICO%2C%2090610-000)
+5. **HOSPITAL FEMINA** (CNES 2265052): Rua Mostardeiro, 17, Rio Branco. Telefone: 51 33145200. Turno: 24 horas. (~6,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=HOSPITAL%20FEMINA%2C%20RUA%20MOSTARDEIRO%2C%2017%2C%20RIO%20BRANCO%2C%2090430-001)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+saude_mental_poa,busca,1,True,,buscar_por_servico,1,True,0,0,,,11,11,True,,16383,2059,0.00267,10.28,9.36,0.0,,,"Encontrei **49 unidades** com atenção psicossocial no município de Porto Alegre perto do CEP 90570-001. As três primeiras da lista atendem pelo SUS:
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: 24 horas, inclusive fins de semana e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: 24 horas, inclusive fins de semana e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: não informado. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+Os dois hospitais oferecem atendimento de saúde mental em regime hospitalar e ambulatorial. O CAPS AD atende principalmente pessoas com problemas relacionados ao uso de álcool e outras drogas.
+
+Duas unidades da busca, CAPS AD III Caminhos do Sol Leno e CAPS AD III Girassol Restinga Extremo Sul, aparecem no cadastro como não atendendo pelo SUS, então deixei de fora da lista.
+
+As distâncias não vieram para estas unidades, então não consigo informar quão perto cada uma fica.
+
+Para o primeiro atendimento pelo SUS, o caminho costuma ser a UBS (posto de saúde) de referência, que pode encaminhar você ao serviço de saúde mental adequado. Se quiser, eu busco a UBS mais próxima do seu CEP.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Se houver risco imediato para você ou para outra pessoa, ligue 192 (SAMU)."
+saude_mental_poa,busca,2,True,,buscar_por_servico,1,True,0,0,,,11,11,True,,16392,2413,0.00285,12.12,11.19,0.0,,,"Encontrei três unidades de saúde mental (CAPS) que o cadastro marca como SUS perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre). O sistema não trouxe as distâncias desta busca.
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: atendimento contínuo, 24 horas, inclusive fins de semana e feriados. Atenção psicossocial em regime hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: atendimento contínuo, 24 horas. Atenção psicossocial em regime hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: telefone não informado. Turno: manhã e tarde. Atendimento ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+Dois pontos importantes:
+- O CAPS AD atende principalmente pessoas com problemas com álcool e outras drogas. Para outros casos de saúde mental, procure um CAPS geral (CAPS II ou III). Nenhum apareceu nesta busca, mas posso pesquisar mais resultados.
+- Duas unidades também vieram na busca (CAPS AD III Caminhos do Sol, em Petrópolis, e CAPS AD III Girassol, na Restinga), mas o cadastro as marca como não atendendo SUS, por isso não as listei acima.
+
+No SUS, o atendimento especializado geralmente exige encaminhamento. O primeiro passo costuma ser procurar a UBS (posto de saúde) de referência, que pode encaminhar para o CAPS. Se precisar, posso buscar a UBS mais próxima do seu CEP.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+saude_mental_poa,busca,3,True,,buscar_por_servico,1,True,0,0,,,11,11,True,,16365,2029,0.00265,10.4,9.55,0.0,,,"Encontrei 49 unidades de atenção psicossocial no município de Porto Alegre. Estas três são do SUS:
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: atendimento contínuo de 24 horas, inclusive fins de semana e feriados. Serviço: atenção psicossocial, hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: atendimento contínuo de 24 horas, inclusive fins de semana e feriados. Serviço: atenção psicossocial, hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: telefone não informado. Turno: manhã e tarde. Serviço: atendimento psicossocial, ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+Duas outras unidades que apareceram na busca (CAPS AD III Caminhos do Sol Leno e CAPS AD III Girassol Restinga Extremo Sul) foram marcadas como não atendendo SUS, então deixei de fora. Se quiser, posso buscar mais CAPS da região.
+
+A ferramenta não trouxe as distâncias, então não consigo informar quão perto cada uma fica.
+
+Observação importante: no SUS, o atendimento especializado geralmente passa pelo encaminhamento da UBS (posto de saúde). Se ainda não tem um, o primeiro passo é procurar a UBS de referência do seu endereço. Em caso de crise, com risco para você ou para outra pessoa, ligue 192 (SAMU).
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir."
+ambiguo_medico,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,20,20,True,,24865,1899,0.00344,8.92,7.97,0.0,,,"Para atendimento médico pelo SUS, a porta de entrada é a Unidade Básica de Saúde (UBS). Encontrei estas, perto do CEP 91110-000 (Avenida Assis Brasil, São Sebastião, Porto Alegre):
+
+1. **UNIDADE DE SAUDE CONCEICAO** (CNES 2265168): Rua Alvares de Cabral, 429, Cristo Redentor. Telefone: 5133450543. Turno: manhã, tarde e noite. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CONCEICAO%2C%20RUA%20ALVARES%20DE%20CABRAL%2C%20429%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+2. **UNIDADE DE SAUDE GRACILIANO RAMOS** (CNES 2237903): Rua A, 105, Cascata. Telefone: (51)3289-8225. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20GRACILIANO%20RAMOS%2C%20RUA%20A%2C%20105%2C%20CASCATA%2C%2090840-350)
+3. **UNIDADE DE SAUDE JARDIM ITU** (CNES 2265079): Rua Biscaia, 39, Jardim Itu Sabara. Telefone: (51)33481288. Turno: manhã, tarde e noite. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20ITU%2C%20RUA%20BISCAIA%2C%2039%2C%20JARDIM%20ITU%20SABARA%2C%2091380-030)
+4. **UNIDADE DE SAUDE FLORESTA** (CNES 2265109): Rua Conselheiro Davila, 111, Jardim Floresta. Telefone: (51)33626727. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20FLORESTA%2C%20RUA%20CONSELHEIRO%20DAVILA%2C%20111%2C%20JARDIM%20FLORESTA%2C%2091040-450)
+5. **UNIDADE DE SAUDE VILA IPIRANGA** (CNES 2264811): Rua Alberto Silva, 1830, Vila Ipiranga. Telefone: 32895670. Turno: manhã e tarde. (~1,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20IPIRANGA%2C%20RUA%20ALBERTO%20SILVA%2C%201830%2C%20VILA%20IPIRANGA%2C%2091370-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem os médicos disponíveis no dia. Confirme por telefone antes de ir. Se o caso for urgente (dor no peito, falta de ar, desmaio e similares), ligue 192 (SAMU).
+
+Se quiser, posso procurar um especialista pelo SUS, como cardiologista ou dermatologista. Nesses casos, o primeiro passo costuma ser a UBS encaminhar você."
+ambiguo_medico,busca,2,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,20,20,True,,25433,2036,0.00356,9.27,8.32,0.0,,,"Para consulta com médico pelo SUS, o caminho é a Unidade Básica de Saúde (UBS) mais próxima. Estas são as cinco mais perto do CEP 91110-000 (São Sebastião, Porto Alegre):
+
+1. **UNIDADE DE SAUDE CONCEICAO** (CNES 2265168): Rua Alvares de Cabral, 429, Cristo Redentor. Telefone: 5133450543. Turno: manhã, tarde e noite. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CONCEICAO%2C%20RUA%20ALVARES%20DE%20CABRAL%2C%20429%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+
+2. **UNIDADE DE SAUDE GRACILIANO RAMOS** (CNES 2237903): Rua A, 105, Cascata. Telefone: (51)3289-8225. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20GRACILIANO%20RAMOS%2C%20RUA%20A%2C%20105%2C%20CASCATA%2C%2090840-350)
+
+3. **UNIDADE DE SAUDE JARDIM ITU** (CNES 2265079): Rua Biscaia, 39, Jardim Itu Sabará. Telefone: (51)33481288. Turno: manhã, tarde e noite. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20ITU%2C%20RUA%20BISCAIA%2C%2039%2C%20JARDIM%20ITU%20SABARA%2C%2091380-030)
+
+4. **UNIDADE DE SAUDE FLORESTA** (CNES 2265109): Rua Conselheiro Davila, 111, Jardim Floresta. Telefone: (51)33626727. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20FLORESTA%2C%20RUA%20CONSELHEIRO%20DAVILA%2C%20111%2C%20JARDIM%20FLORESTA%2C%2091040-450)
+
+5. **UNIDADE DE SAUDE VILA IPIRANGA** (CNES 2264811): Rua Alberto Silva, 1830, Vila Ipiranga. Telefone: 32895670. Turno: manhã e tarde. (~1,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20IPIRANGA%2C%20RUA%20ALBERTO%20SILVA%2C%201830%2C%20VILA%20IPIRANGA%2C%2091370-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192.
+
+Se precisar de um especialista, procure primeiro a UBS, porque no SUS o atendimento especializado geralmente exige encaminhamento dela. Me diga a especialidade se quiser que eu procure."
+ambiguo_medico,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23269,1814,0.00323,8.34,7.41,0.0,,,"Para consulta com clínico geral, o caminho pelo SUS é a Unidade Básica de Saúde (UBS) de referência. Estas são as mais próximas do CEP 91110-000 (Av. Assis Brasil, São Sebastião, Porto Alegre):
+
+1. **UNIDADE DE SAUDE CONCEICAO** (CNES 2265168): Rua Alvares de Cabral, 429, Cristo Redentor. Telefone: 5133450543. Turno: manhã, tarde e noite. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CONCEICAO%2C%20RUA%20ALVARES%20DE%20CABRAL%2C%20429%2C%20CRISTO%20REDENTOR%2C%2091350-200)
+2. **UNIDADE DE SAUDE GRACILIANO RAMOS** (CNES 2237903): Rua A, 105, Cascata. Telefone: (51)3289-8225. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20GRACILIANO%20RAMOS%2C%20RUA%20A%2C%20105%2C%20CASCATA%2C%2090840-350)
+3. **UNIDADE DE SAUDE JARDIM ITU** (CNES 2265079): Rua Biscaia, 39, Jardim Itu Sabara. Telefone: (51)33481288. Turno: manhã, tarde e noite. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20JARDIM%20ITU%2C%20RUA%20BISCAIA%2C%2039%2C%20JARDIM%20ITU%20SABARA%2C%2091380-030)
+4. **UNIDADE DE SAUDE FLORESTA** (CNES 2265109): Rua Conselheiro Davila, 111, Jardim Floresta. Telefone: (51)33626727. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20FLORESTA%2C%20RUA%20CONSELHEIRO%20DAVILA%2C%20111%2C%20JARDIM%20FLORESTA%2C%2091040-450)
+5. **UNIDADE DE SAUDE VILA IPIRANGA** (CNES 2264811): Rua Alberto Silva, 1830, Vila Ipiranga. Telefone: 32895670. Turno: manhã e tarde. (~1,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20VILA%20IPIRANGA%2C%20RUA%20ALBERTO%20SILVA%2C%201830%2C%20VILA%20IPIRANGA%2C%2091370-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade conhecida pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Se precisar de atendimento urgente, ligue 192 (SAMU).
+
+Se quiser, posso buscar uma especialidade específica, como pediatra ou ginecologista, por meio da UBS."
+posto_canoas,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,16,16,True,,23242,1781,0.00321,8.69,7.76,0.0,,,"O posto de saúde mais próximo do CEP 92010-000 (Centro, Canoas-RS) é a **Unidade de Saúde Santa Isabel**, a cerca de 0,2 km em linha reta. Estas são as unidades básicas de saúde mais próximas:
+
+1. **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964): Rua Frei Orlando, 141, Centro. Telefone: 5132361659. Turno: manhã e tarde (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+
+2. **UNIDADE DE SAUDE SAO VICENTE** (CNES 2230275): Rua Walter Oliveira Ilha, 90, Olaria. Telefone: 5132361653. Turno: manhã e tarde (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20VICENTE%2C%20RUA%20WALTER%20OLIVEIRA%20ILHA%2C%2090%2C%20OLARIA%2C%2092035-794)
+
+3. **UNIDADE DE SAUDE CAIC** (CNES 2230054): Avenida Dezessete de Abril, S/N, Guajuviras. Telefone: 5132361656. Turno: manhã e tarde (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAIC%2C%20AVENIDA%20DEZESSETE%20DE%20ABRIL%2C%20S%2FN%2C%20GUAJUVIRAS%2C%2092415-000)
+
+4. **UNIDADE DE SAUDE MATO GRANDE** (CNES 2230291): Rua Republica, 460, Mato Grande. Telefone: 5132361644. Turno: manhã e tarde (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20MATO%20GRANDE%2C%20RUA%20REPUBLICA%2C%20460%2C%20MATO%20GRANDE%2C%2092320-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+posto_canoas,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23235,1800,0.00322,8.32,7.35,0.0,,,"O posto de saúde mais próximo do CEP 92010-000 (Av. Victor Barreto, Centro, Canoas-RS) é a **Unidade de Saúde Santa Isabel**, a cerca de 0,2 km. Estas são as 5 unidades mais próximas:
+
+1. **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964): Rua Frei Orlando, 141, Centro. Telefone: 5132361659. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+
+2. **UNIDADE DE SAUDE SAO VICENTE** (CNES 2230275): Rua Walter Oliveira Ilha, 90, Olaria. Telefone: 5132361653. Turno: manhã e tarde. (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20VICENTE%2C%20RUA%20WALTER%20OLIVEIRA%20ILHA%2C%2090%2C%20OLARIA%2C%2092035-794)
+
+3. **SAE SERVICO DE ASSISTENCIA ESPECIALIZADA CANOAS** (CNES 3217787): Avenida Guilherme Schell, 6184, Centro. Telefone: 5132361678. Turno: manhã, tarde e noite. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SAE%20SERVICO%20DE%20ASSISTENCIA%20ESPECIALIZADA%20CANOAS%2C%20AVENIDA%20GUILHERME%20SCHELL%2C%206184%2C%20CENTRO%2C%2092310-564)
+
+4. **UNIDADE DE SAUDE CAIC** (CNES 2230054): Avenida Dezessete de Abril, S/N, Guajuviras. Telefone: 5132361656. Turno: manhã e tarde. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAIC%2C%20AVENIDA%20DEZESSETE%20DE%20ABRIL%2C%20S%2FN%2C%20GUAJUVIRAS%2C%2092415-000)
+
+5. **UNIDADE DE SAUDE MATO GRANDE** (CNES 2230291): Rua Republica, 460, Mato Grande. Telefone: 5132361644. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20MATO%20GRANDE%2C%20RUA%20REPUBLICA%2C%20460%2C%20MATO%20GRANDE%2C%2092320-000)
+
+Observações:
+- A SAE é um serviço de assistência especializada, não um posto de saúde comum. Ela aparece porque também está cadastrada como unidade básica.
+- As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+- Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+posto_canoas,busca,3,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,True,1.0,19,19,True,,23975,1854,0.00332,8.6,7.71,0.0,,,"A partir do CEP 92010-000 (Centro, Canoas/RS), estas são as unidades básicas de saúde mais próximas:
+
+1. **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964): Rua Frei Orlando, 141, Centro. Telefone: 5132361659. Turno: manhã e tarde. (~0,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280)
+2. **UNIDADE DE SAUDE SAO VICENTE** (CNES 2230275): Rua Walter Oliveira Ilha, 90, Olaria. Telefone: 5132361653. Turno: manhã e tarde. (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SAO%20VICENTE%2C%20RUA%20WALTER%20OLIVEIRA%20ILHA%2C%2090%2C%20OLARIA%2C%2092035-794)
+3. **UNIDADE DE SAUDE CAIC** (CNES 2230054): Avenida Dezessete de Abril, S/N, Guajuviras. Telefone: 5132361656. Turno: manhã e tarde. (~1,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20CAIC%2C%20AVENIDA%20DEZESSETE%20DE%20ABRIL%2C%20S%2FN%2C%20GUAJUVIRAS%2C%2092415-000)
+4. **UNIDADE DE SAUDE MATO GRANDE** (CNES 2230291): Rua Republica, 460, Mato Grande. Telefone: 5132361644. Turno: manhã e tarde. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20MATO%20GRANDE%2C%20RUA%20REPUBLICA%2C%20460%2C%20MATO%20GRANDE%2C%2092320-000)
+
+Também apareceu o **SAE Serviço de Assistência Especializada Canoas** (CNES 3217787), na Avenida Guilherme Schell, 6184, Centro, telefone 5132361678, atendimento manhã, tarde e noite (~0,7 km). Ele é um serviço especializado, não um posto de saúde comum. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SAE%20SERVICO%20DE%20ASSISTENCIA%20ESPECIALIZADA%20CANOAS%2C%20AVENIDA%20GUILHERME%20SCHELL%2C%206184%2C%20CENTRO%2C%2092310-564)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+vacina_caxias,busca,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,3,3,True,1.0,18,18,True,,23750,1785,0.00327,8.41,7.34,0.0,,,"Encontrei 5 unidades de saúde que atendem pelo SUS perto do CEP 95020-000 (Rua Sinimbu, Nossa Senhora de Lourdes, Caxias do Sul - RS). Todas são Unidades Básicas de Saúde (UBS), onde a vacina da gripe costuma ser aplicada. Nenhum centro de imunização apareceu entre as mais próximas.
+
+1. **UBS CINQUENTENARIO** (CNES 2239027): Av. Julio de Castilhos, 3633, Cinquentenário. Telefone: (54) 3901-2313. Turno: manhã, tarde e noite. (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CINQUENTENARIO%2C%20AV%20JULIO%20DE%20CASTILHOS%2C%203633%2C%20CINQUENTENARIO%2C%2095010-675)
+2. **UBS SAO VICENTE** (CNES 2239264): Rua Assis Brasil, 1086, São Vicente. Telefone: (54) 3901 13 22. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20SAO%20VICENTE%2C%20RUA%20ASSIS%20BRASIL%2C%201086%2C%20SAO%20VICENTE%2C%2095020-380)
+3. **UBS CENTRO DE SAUDE** (CNES 2223163): Rua Pinheiro Machado, 1258, Centro. Telefone: (54)3901 1228. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CENTRO%20DE%20SAUDE%2C%20RUA%20PINHEIRO%20MACHADO%2C%201258%2C%20CENTRO%2C%2095020-171)
+4. **UBS CRISTO REDENTOR** (CNES 9768343): Rua Silveira Martins, 1434, Cristo Redentor. Telefone: (54) 3290-4400. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CRISTO%20REDENTOR%2C%20RUA%20SILVEIRA%20MARTINS%2C%201434%2C%20CRISTO%20REDENTOR%2C%2095082-000)
+5. **UBS BELA VISTA** (CNES 2239159): Rua Valentim Comerlatto, 983, Bela Vista. Telefone: (54) 3901 13 21. Turno: manhã e tarde. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20BELA%20VISTA%2C%20RUA%20VALENTIM%20COMERLATTO%2C%20983%2C%20BELA%20VISTA%2C%2095072-430)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados vêm do cadastro CNES, que não informa vagas, filas, estoque de vacina nem plantão do dia. Confirme por telefone antes de ir.
+
+Em emergência, ligue 192 (SAMU)."
+vacina_caxias,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,3,3,True,1.0,18,18,True,,23334,1706,0.00319,8.51,7.5,0.0,,,"Perto do CEP 95020-000 (Nossa Senhora de Lourdes, Caxias do Sul - RS), estas unidades básicas de saúde (UBS) atendem pelo SUS:
+
+1. **UBS CINQUENTENARIO** (CNES 2239027): Av. Julio de Castilhos, 3633, Cinquentenário. Telefone: (54) 3901-2313. Turno: manhã, tarde e noite. (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CINQUENTENARIO%2C%20AV%20JULIO%20DE%20CASTILHOS%2C%203633%2C%20CINQUENTENARIO%2C%2095010-675)
+2. **UBS SAO VICENTE** (CNES 2239264): Rua Assis Brasil, 1086, São Vicente. Telefone: (54) 3901 13 22. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20SAO%20VICENTE%2C%20RUA%20ASSIS%20BRASIL%2C%201086%2C%20SAO%20VICENTE%2C%2095020-380)
+3. **UBS CENTRO DE SAUDE** (CNES 2223163): Rua Pinheiro Machado, 1258, Centro. Telefone: (54)3901 1228. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CENTRO%20DE%20SAUDE%2C%20RUA%20PINHEIRO%20MACHADO%2C%201258%2C%20CENTRO%2C%2095020-171)
+4. **UBS CRISTO REDENTOR** (CNES 9768343): Rua Silveira Martins, 1434, Cristo Redentor. Telefone: (54) 3290-4400. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CRISTO%20REDENTOR%2C%20RUA%20SILVEIRA%20MARTINS%2C%201434%2C%20CRISTO%20REDENTOR%2C%2095082-000)
+5. **UBS BELA VISTA** (CNES 2239159): Rua Valentim Comerlatto, 983, Bela Vista. Telefone: (54) 3901 13 21. Turno: manhã e tarde. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20BELA%20VISTA%2C%20RUA%20VALENTIM%20COMERLATTO%2C%20983%2C%20BELA%20VISTA%2C%2095072-430)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Não consigo confirmar pelo cadastro se a vacina da gripe está disponível agora nem se há campanha em andamento. O CNES também não informa vagas, filas nem plantão do dia. Confirme por telefone antes de ir.
+
+Em emergência, ligue 192 (SAMU)."
+vacina_caxias,busca,3,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos > buscar_estabelecimentos,4,True,4,4,True,1.0,18,18,True,,34343,2200,0.00453,10.92,9.98,0.0,,,"Para o CEP 95020-000 (Rua Sinimbu, Nossa Senhora de Lourdes, Caxias do Sul - RS), não encontrei centro de imunização no cadastro. As unidades mais próximas que atendem pelo SUS são estas UBS (postos de saúde):
+
+1. **UBS CINQUENTENARIO** (CNES 2239027): Av. Julio de Castilhos, 3633, Cinquentenário. Telefone: (54) 3901-2313. Turno: manhã, tarde e noite. (~0,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CINQUENTENARIO%2C%20AV%20JULIO%20DE%20CASTILHOS%2C%203633%2C%20CINQUENTENARIO%2C%2095010-675)
+2. **UBS SAO VICENTE** (CNES 2239264): Rua Assis Brasil, 1086, São Vicente. Telefone: (54) 3901 13 22. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20SAO%20VICENTE%2C%20RUA%20ASSIS%20BRASIL%2C%201086%2C%20SAO%20VICENTE%2C%2095020-380)
+3. **UBS CENTRO DE SAUDE** (CNES 2223163): Rua Pinheiro Machado, 1258, Centro. Telefone: (54)3901 1228. Turno: manhã e tarde. (~0,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CENTRO%20DE%20SAUDE%2C%20RUA%20PINHEIRO%20MACHADO%2C%201258%2C%20CENTRO%2C%2095020-171)
+4. **UBS CRISTO REDENTOR** (CNES 9768343): Rua Silveira Martins, 1434, Cristo Redentor. Telefone: (54) 3290-4400. Turno: manhã e tarde. (~0,9 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CRISTO%20REDENTOR%2C%20RUA%20SILVEIRA%20MARTINS%2C%201434%2C%20CRISTO%20REDENTOR%2C%2095082-000)
+5. **UBS BELA VISTA** (CNES 2239159): Rua Valentim Comerlatto, 983, Bela Vista. Telefone: (54) 3901 13 21. Turno: manhã e tarde. (~1,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20BELA%20VISTA%2C%20RUA%20VALENTIM%20COMERLATTO%2C%20983%2C%20BELA%20VISTA%2C%2095072-430)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vacina disponível, fila nem plantão do dia. Confirme por telefone antes de ir, principalmente se a vacina da gripe estiver em campanha ou em falta.
+
+Em emergência, ligue 192 (SAMU)."
+pronto_pelotas,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,3,3,True,,21344,675,0.00247,5.22,4.17,0.0,,,"Em Pelotas (CEP 96010-000), encontrei uma unidade de pronto atendimento no cadastro:
+
+1. **UPA 24H AREAL** (CNES 9002197): Avenida Ferreira Viana, 2231, Areal. Telefone: telefone não informado. Turno: 24 horas por dia, inclusive sábados, domingos e feriados. Atende SUS. (~2,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UPA%2024H%20AREAL%2C%20AVENIDA%20FERREIRA%20VIANA%2C%202231%2C%20AREAL%2C%2096085-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+pronto_pelotas,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,3,3,True,,21348,781,0.00253,5.81,4.63,0.0,,,"Encontrei uma unidade de pronto atendimento perto do CEP 96010-000, no centro de Pelotas:
+
+1. **UPA 24H AREAL** (CNES 9002197): Avenida Ferreira Viana, 2231, Areal. Telefone: não informado. Turno: atendimento contínuo, 24 horas por dia, inclusive sábados, domingos e feriados. Atende SUS. (~2,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UPA%2024H%20AREAL%2C%20AVENIDA%20FERREIRA%20VIANA%2C%202231%2C%20AREAL%2C%2096085-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192.
+
+Se quiser, posso buscar hospitais próximos ao seu CEP."
+pronto_pelotas,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,3,3,True,,21357,765,0.00252,5.56,4.51,0.0,,,"Em Pelotas, perto do CEP 96010-000, encontrei **uma** unidade de pronto atendimento que atende pelo SUS:
+
+1. **UPA 24H AREAL** (CNES 9002197): Avenida Ferreira Viana, 2231, bairro Areal. Telefone não informado. Turno: atendimento contínuo 24 horas, todos os dias, incluindo sábados, domingos e feriados. (~2,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UPA%2024H%20AREAL%2C%20AVENIDA%20FERREIRA%20VIANA%2C%202231%2C%20AREAL%2C%2096085-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Se a UPA não for uma opção, posso buscar hospitais da região que tenham atendimento de urgência.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+ubs_sao_paulo,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23337,1637,0.00315,7.78,6.86,0.0,,,"Perto da Avenida Paulista (CEP 01310-100), estas são as UBS mais próximas:
+
+1. **UBS NOSSA SENHORA DO BRASIL ARMANDO DARIENZO** (CNES 2788144): Rua Almirante Marques de Leão, 684, Bela Vista. Telefone: (011) 42106121. Turno: manhã e tarde. (~1,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20NOSSA%20SENHORA%20DO%20BRASIL%20ARMANDO%20DARIENZO%2C%20RUA%20ALMIRANTE%20MARQUES%20DE%20LEAO%2C%20684%2C%20BELA%20VISTA%2C%2001330-010)
+
+2. **UBS HUMAITA DR JOAO DE AZEVEDO LAGE** (CNES 2787113): Rua Humaitá, 520, Bela Vista. Telefone: (011) 42105615. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20HUMAITA%20DR%20JOAO%20DE%20AZEVEDO%20LAGE%2C%20RUA%20HUMAITA%2C%20520%2C%20BELA%20VISTA%2C%2001321-010)
+
+3. **UBS JARDIM ELISA MARIA I** (CNES 5882281): Rua Rômulo Naldi, 57, Jardim Elisa Maria. Telefone: 11 52374355. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20JARDIM%20ELISA%20MARIA%20I%2C%20RUA%20ROMULO%20NALDI%2C%2057%2C%20JARDIM%20ELISA%20MARIA%2C%2002873-250)
+
+4. **UBS MARIA CECILIA DONNANGELO** (CNES 2788071): Rua Rui de Moraes Apocalipse, 02, Brasilândia. Telefone: (11)52374470. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20MARIA%20CECILIA%20DONNANGELO%2C%20RUA%20RUI%20DE%20MORAES%20APOCALIPSE%2C%2002%2C%20BRASILANDIA%2C%2002842-260)
+
+5. **UBS CAMBUCI** (CNES 2786834): Av. Lacerda Franco, 791, Cambuci. Telefone: (11) 4210-5428. Turno: manhã, tarde e noite. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CAMBUCI%2C%20AV%20LACERDA%20FRANCO%2C%20791%2C%20CAMBUCI%2C%2001536-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+ubs_sao_paulo,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,24279,1703,0.00328,7.97,7.05,0.0,,,"Na Avenida Paulista (CEP 01310-100, Bela Vista, São Paulo) há várias UBS próximas. As mais perto são:
+
+1. **UBS NOSSA SENHORA DO BRASIL ARMANDO DARIENZO** (CNES 2788144): Rua Almirante Marques de Leão, 684, Bela Vista. Telefone: (011) 42106121. Turno: manhã e tarde. (~1,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20NOSSA%20SENHORA%20DO%20BRASIL%20ARMANDO%20DARIENZO%2C%20RUA%20ALMIRANTE%20MARQUES%20DE%20LEAO%2C%20684%2C%20BELA%20VISTA%2C%2001330-010)
+
+2. **UBS HUMAITA DR JOAO DE AZEVEDO LAGE** (CNES 2787113): Rua Humaitá, 520, Bela Vista. Telefone: (011) 42105615. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20HUMAITA%20DR%20JOAO%20DE%20AZEVEDO%20LAGE%2C%20RUA%20HUMAITA%2C%20520%2C%20BELA%20VISTA%2C%2001321-010)
+
+3. **UBS JARDIM ELISA MARIA I** (CNES 5882281): Rua Rômulo Naldi, 57, Jardim Elisa Maria. Telefone: 11 52374355. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20JARDIM%20ELISA%20MARIA%20I%2C%20RUA%20ROMULO%20NALDI%2C%2057%2C%20JARDIM%20ELISA%20MARIA%2C%2002873-250)
+
+4. **UBS MARIA CECILIA DONNANGELO** (CNES 2788071): Rua Rui de Moraes Apocalipse, 02, Brasilândia. Telefone: (11)52374470. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20MARIA%20CECILIA%20DONNANGELO%2C%20RUA%20RUI%20DE%20MORAES%20APOCALIPSE%2C%2002%2C%20BRASILANDIA%2C%2002842-260)
+
+5. **UBS CAMBUCI** (CNES 2786834): Av. Lacerda Franco, 791, Cambuci. Telefone: (11) 4210-5428. Turno: manhã, tarde e noite. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CAMBUCI%2C%20AV%20LACERDA%20FRANCO%2C%20791%2C%20CAMBUCI%2C%2001536-000)
+
+As distâncias são aproximadas, em linha reta, calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto do que parece.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+ubs_sao_paulo,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,True,1.0,20,20,True,,23001,1801,0.0032,8.47,7.5,0.0,,,"Perto da Avenida Paulista (CEP 01310-100), estas são as UBS mais próximas:
+
+1. **UBS NOSSA SENHORA DO BRASIL ARMANDO DARIENZO** (CNES 2788144): Rua Almirante Marques de Leão, 684, Bela Vista. Telefone: (011) 42106121. Turno: manhã e tarde. (~1,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20NOSSA%20SENHORA%20DO%20BRASIL%20ARMANDO%20DARIENZO%2C%20RUA%20ALMIRANTE%20MARQUES%20DE%20LEAO%2C%20684%2C%20BELA%20VISTA%2C%2001330-010)
+
+2. **UBS HUMAITA DR JOAO DE AZEVEDO LAGE** (CNES 2787113): Rua Humaitá, 520, Bela Vista. Telefone: (011) 42105615. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20HUMAITA%20DR%20JOAO%20DE%20AZEVEDO%20LAGE%2C%20RUA%20HUMAITA%2C%20520%2C%20BELA%20VISTA%2C%2001321-010)
+
+3. **UBS JARDIM ELISA MARIA I** (CNES 5882281): Rua Rômulo Naldi, 57, Jardim Elisa Maria. Telefone: 11 52374355. Turno: manhã, tarde e noite. (~1,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20JARDIM%20ELISA%20MARIA%20I%2C%20RUA%20ROMULO%20NALDI%2C%2057%2C%20JARDIM%20ELISA%20MARIA%2C%2002873-250)
+
+4. **UBS MARIA CECILIA DONNANGELO** (CNES 2788071): Rua Rui de Moraes Apocalipse, 02, Brasilândia. Telefone: (11)52374470. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20MARIA%20CECILIA%20DONNANGELO%2C%20RUA%20RUI%20DE%20MORAES%20APOCALIPSE%2C%2002%2C%20BRASILANDIA%2C%2002842-260)
+
+5. **UBS CAMBUCI** (CNES 2786834): Av. Lacerda Franco, 791, Cambuci. Telefone: (11) 4210-5428. Turno: manhã, tarde e noite. (~2,2 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UBS%20CAMBUCI%2C%20AV%20LACERDA%20FRANCO%2C%20791%2C%20CAMBUCI%2C%2001536-000)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+upa_rio,busca,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,1,1,True,0.2,20,20,True,,23162,2011,0.00332,9.24,8.32,0.0,,,"O CEP 20040-002 fica na Avenida Rio Branco, Centro, Rio de Janeiro. Estas são as UPAs 24h mais próximas (são 31 no município, mas mostro as 5 mais perto):
+
+1. **SES RJ UPA 24H ILHA DO GOVERNADOR** (CNES 6037550): Parque Poeta Manuel Bandeira, S/N, Cocotá (Ilha do Governador). Telefone: 23346348. Turno: 24 horas, inclusive sábados, domingos e feriados. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20ILHA%20DO%20GOVERNADOR%2C%20PARQUE%20POETA%20MANUEL%20BANDEIRA%2C%20S%2FN%2C%20COCOTA%20ILHA%20DO%20GOVER%2C%2021910-296)
+
+2. **SMS UPA 24H MAGALHAES BASTOS AP 51** (CNES 7101856): Estrada Manuel Nogueira de Sá, S/N, Magalhães Bastos. Telefone: 35507080. Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SMS%20UPA%2024H%20MAGALHAES%20BASTOS%20AP%2051%2C%20ESTRADA%20MANUEL%20NOGUEIRA%20DE%20SA%2C%20S%2FN%2C%20MAGALHAES%20BASTOS%2C%2021745-290)
+
+3. **SES RJ UPA 24 H BOTAFOGO** (CNES 6220584): São Clemente, S/N, Botafogo. Telefone: 21 22992577. Turno: 24 horas, inclusive sábados, domingos e feriados. (~4,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024%20H%20BOTAFOGO%2C%20SAO%20CLEMENTE%2C%20S%2FN%2C%20BOTAFOGO%2C%2022260-000)
+
+4. **SES RJ UPA 24H TIJUCA** (CNES 5955661): Rua Conde de Bonfim, S/N, Tijuca. Telefone: 23341921. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20TIJUCA%2C%20RUA%20CONDE%20DE%20BONFIM%2C%20S%2FN%2C%20TIJUCA%2C%2020520-054)
+
+5. **SES RJ UPA 24H COPACABANA** (CNES 6858317): Rua Siqueira Campos, 129, Copacabana. Telefone: 30426945. Turno: 24 horas, inclusive sábados, domingos e feriados. (~6,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20COPACABANA%2C%20RUA%20SIQUEIRA%20CAMPOS%2C%20129%2C%20COPACABANA%2C%2022031-071)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+upa_rio,busca,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,1,1,True,0.2,20,20,True,,23240,2041,0.00334,9.43,8.49,0.0,,,"Encontrei 31 UPAs no município. As 5 mais próximas do CEP 20040-002 (Avenida Rio Branco, Centro) são:
+
+1. **SES RJ UPA 24H ILHA DO GOVERNADOR** (CNES 6037550): Parque Poeta Manuel Bandeira, S/N, Cocotá, Ilha do Governador. Telefone: 23346348. Turno: 24 horas, inclusive sábados, domingos e feriados. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20ILHA%20DO%20GOVERNADOR%2C%20PARQUE%20POETA%20MANUEL%20BANDEIRA%2C%20S%2FN%2C%20COCOTA%20ILHA%20DO%20GOVER%2C%2021910-296)
+
+2. **SMS UPA 24H MAGALHAES BASTOS AP 51** (CNES 7101856): Estrada Manuel Nogueira de Sá, S/N, Magalhães Bastos. Telefone: 35507080. Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SMS%20UPA%2024H%20MAGALHAES%20BASTOS%20AP%2051%2C%20ESTRADA%20MANUEL%20NOGUEIRA%20DE%20SA%2C%20S%2FN%2C%20MAGALHAES%20BASTOS%2C%2021745-290)
+
+3. **SES RJ UPA 24 H BOTAFOGO** (CNES 6220584): São Clemente, S/N, Botafogo. Telefone: 21 22992577. Turno: 24 horas, inclusive sábados, domingos e feriados. (~4,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024%20H%20BOTAFOGO%2C%20SAO%20CLEMENTE%2C%20S%2FN%2C%20BOTAFOGO%2C%2022260-000)
+
+4. **SES RJ UPA 24H TIJUCA** (CNES 5955661): Rua Conde de Bonfim, S/N, Tijuca. Telefone: 23341921. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20TIJUCA%2C%20RUA%20CONDE%20DE%20BONFIM%2C%20S%2FN%2C%20TIJUCA%2C%2020520-054)
+
+5. **SES RJ UPA 24H COPACABANA** (CNES 6858317): Rua Siqueira Campos, 129, Copacabana. Telefone: 30426945. Turno: 24 horas, inclusive sábados, domingos e feriados. (~6,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20COPACABANA%2C%20RUA%20SIQUEIRA%20CAMPOS%2C%20129%2C%20COPACABANA%2C%2022031-071)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Por isso, a ordem pode não refletir o trajeto real.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+upa_rio,busca,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,1,1,True,0.2,20,20,True,,23083,1954,0.00329,9.51,8.57,0.0,,,"Encontrei 31 UPAs no Rio de Janeiro. As 5 mais próximas do CEP 20040-002 (Av. Rio Branco, Centro) são:
+
+1. **SES RJ UPA 24H ILHA DO GOVERNADOR** (CNES 6037550): Parque Poeta Manuel Bandeira, S/N, Cocotá, Ilha do Governador. Telefone: 23346348. Turno: 24 horas, inclusive sábados, domingos e feriados. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20ILHA%20DO%20GOVERNADOR%2C%20PARQUE%20POETA%20MANUEL%20BANDEIRA%2C%20S%2FN%2C%20COCOTA%20ILHA%20DO%20GOVER%2C%2021910-296)
+
+2. **SMS UPA 24H MAGALHAES BASTOS AP 51** (CNES 7101856): Estrada Manuel Nogueira de Sá, S/N, Magalhães Bastos. Telefone: 35507080. Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SMS%20UPA%2024H%20MAGALHAES%20BASTOS%20AP%2051%2C%20ESTRADA%20MANUEL%20NOGUEIRA%20DE%20SA%2C%20S%2FN%2C%20MAGALHAES%20BASTOS%2C%2021745-290)
+
+3. **SES RJ UPA 24 H BOTAFOGO** (CNES 6220584): São Clemente, S/N, Botafogo. Telefone: 21 22992577. Turno: 24 horas, inclusive sábados, domingos e feriados. (~4,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024%20H%20BOTAFOGO%2C%20SAO%20CLEMENTE%2C%20S%2FN%2C%20BOTAFOGO%2C%2022260-000)
+
+4. **SES RJ UPA 24H TIJUCA** (CNES 5955661): Rua Conde de Bonfim, S/N, Tijuca. Telefone: 23341921. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,8 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20TIJUCA%2C%20RUA%20CONDE%20DE%20BONFIM%2C%20S%2FN%2C%20TIJUCA%2C%2020520-054)
+
+5. **SES RJ UPA 24H COPACABANA** (CNES 6858317): Rua Siqueira Campos, 129, Copacabana. Telefone: 30426945. Turno: 24 horas, inclusive sábados, domingos e feriados. (~6,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=SES%20RJ%20UPA%2024H%20COPACABANA%2C%20RUA%20SIQUEIRA%20CAMPOS%2C%20129%2C%20COPACABANA%2C%2022031-071)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode conter erros. Uma unidade pode estar mais perto ou mais longe do que parece.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+emergencia_dor_no_peito,emergencia,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,16,16,True,,23681,1968,0.00335,9.44,8.6,0.0,,,"**Ligue 192 (SAMU) agora** se o seu pai estiver com dor forte no peito. Se ele tiver falta de ar, suor frio, desmaio ou dor que irradia para o braço ou o queixo, a ligação não pode esperar.
+
+Estas unidades de pronto atendimento, abertas 24 horas e que atendem SUS, são as mais próximas do CEP 90570-001:
+
+1. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (o número parece estar errado no cadastro do CNES). Turno: 24 horas (~5,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+2. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas (~5,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+3. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+4. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas (~13,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+As distâncias são aproximadas, em linha reta, e foram calculadas com a localização cadastrada no CNES, que pode conter erros.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Se der para ligar antes, confirme por telefone. Mas, com dor forte no peito, o mais seguro é chamar o SAMU (192) e não se deslocar sozinho."
+emergencia_dor_no_peito,emergencia,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,12,12,True,,23357,1738,0.0032,8.79,7.84,0.0,,,"Estas são as unidades de pronto atendimento SUS mais próximas do CEP 90570-001. Se o quadro for de emergência, vá à mais próxima ou chame o 192 para receber orientação e atendimento em casa.
+
+1. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (o cadastro indica que este número pode estar errado, pois tem dígitos a mais ou a menos). Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+2. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+3. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas, inclusive sábados, domingos e feriados. (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, fila nem plantão do dia. Confirme por telefone antes de sair. Em emergência, ligue 192."
+emergencia_dor_no_peito,emergencia,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,16,16,True,,23269,1883,0.00327,8.83,7.92,0.0,,,"**Se o seu pai estiver com dor forte no peito, ligue 192 (SAMU) agora.** Não espere para ver se melhora. Se ele tiver falta de ar, desmaio ou suor frio, a orientação é a mesma.
+
+Estas são as unidades de pronto atendimento mais próximas do CEP 90570-001 (Moinhos de Vento, Porto Alegre). Todas funcionam 24 horas:
+
+1. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (o número parece estar errado no cadastro; repasse como está e confirme). Turno: 24 horas. (~5,3 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+2. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas. (~5,5 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+3. **PRONTO ATENDIMENTO CRUZEIRO DO SUL** (CNES 2237148): Rua Manoel Lobato, 151, Santa Teresa. Telefone: 5132894091. Turno: 24 horas. (~5,6 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20CRUZEIRO%20DO%20SUL%2C%20RUA%20MANOEL%20LOBATO%2C%20151%2C%20SANTA%20TERESA%2C%2090850-530)
+
+4. **PRONTO ATENDIMENTO LOMBA DO PINHEIRO** (CNES 2693402): Estrada João de Oliveira Remião, 5110, Lomba do Pinheiro. Telefone: (51)33194850. Turno: 24 horas. (~13,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20LOMBA%20DO%20PINHEIRO%2C%20ESTRADA%20JOAO%20DE%20OLIVEIRA%20REMIAO%2C%205110%2C%20LOMBA%20DO%20PINHEIRO%2C%2091560-000)
+
+Não incluí o Plantão de Saúde Mental IAPI, porque ele atende saúde mental e não é indicado para dor no peito.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+emergencia_falta_de_ar,emergencia,1,True,,,0,,0,0,,,0,0,True,,6611,439,0.00088,3.98,2.9,0,,,"**Ligue agora para o 192 (SAMU). Lábios roxos com falta de ar em criança são uma emergência e não devem esperar.**
+
+Enquanto o socorro não chega, não espere para ver se melhora. Se conseguir sair de casa com ajuda de alguém, leve sua filha ao pronto-socorro mais próximo.
+
+Para eu localizar as unidades de pronto atendimento mais próximas de você, me informe o **CEP de onde vocês estão** (8 dígitos). Mas não deixe de ligar para o 192 primeiro."
+emergencia_falta_de_ar,emergencia,2,True,,,0,,0,0,,,0,0,True,,6611,508,0.00092,4.2,3.12,0,,,"**Ligue agora para o 192 (SAMU). Lábios roxos com falta de ar são uma emergência, então não espere para procurar unidade.**
+
+Enquanto o SAMU não chega, fique ao lado dela e não a deixe sozinha. Se ela ficar muito sonolenta, desmaiar ou parar de respirar bem, avise o atendente do SAMU imediatamente.
+
+Para eu indicar o pronto-socorro ou a UPA mais próximos, me informe o **CEP** de onde vocês estão (8 dígitos). Essa informação não substitui a ligação para o 192."
+emergencia_falta_de_ar,emergencia,3,True,,,0,,0,0,,,0,0,True,,6611,465,0.00089,3.95,2.88,0,,,"**Ligue imediatamente para o 192 (SAMU).** Falta de ar com lábios roxos é emergência, e a ligação não deve esperar.
+
+Enquanto a ajuda não chega:
+- Não espere melhorar sozinha. Se o SAMU demorar ou você não conseguir ligar, leve sua filha ao pronto-socorro mais próximo agora.
+- Mantenha-a sentada ou na posição em que ela respira melhor e acompanhe a respiração sem deixá-la sozinha.
+- Se ela desmaiar, ficar muito sonolenta ou parar de respirar, avise o SAMU na hora.
+
+Me informe o **CEP** de onde vocês estão. Assim consigo indicar as unidades de pronto atendimento mais próximas, caso precisem ir por conta própria."
+emergencia_desmaio,emergencia,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,8,8,True,,23299,1538,0.0031,8.17,7.33,0.0,,,"**Ligue 192 (SAMU) agora, se ainda não ligou.** Enquanto espera, mantenha sua avó deitada de lado e veja se ela respira. Se parar de respirar, comece a massagem cardíaca se souber fazer.
+
+Perto do CEP 91350-200 (Cristo Redentor, Porto Alegre), estas unidades funcionam 24 horas e atendem pelo SUS:
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424. O telefone parece estar errado no cadastro, então confirme antes de ligar. Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Em emergência, ligue 192 e não espere para ir de carro se o SAMU puder chegar antes."
+emergencia_desmaio,emergencia,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,8,8,True,,23239,1601,0.00312,8.75,7.84,0.0,,,"**Ligue agora para o 192 (SAMU)**, se ainda não ligou. Se ela não acordar, não espere para ir a uma unidade: o SAMU deve ser acionado primeiro. Enquanto isso, verifique se ela respira e, se ela parar de respirar, comece a massagem cardíaca se você souber fazer.
+
+Unidades de pronto atendimento 24 horas, perto do CEP 91350-200, que atendem pelo SUS:
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (este número parece estar errado no cadastro do CNES, com dígitos a mais ou a menos). Turno: 24 horas, inclusive sábados, domingos e feriados. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Por isso, confirme por telefone antes de ir. Em emergência, ligue 192."
+emergencia_desmaio,emergencia,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,,0,0,,,8,8,True,,23329,1714,0.00319,9.26,8.4,0.0,,,"**Ligue 192 (SAMU) agora.** Uma pessoa que desmaiou e não acorda precisa de atendimento imediato, e o SAMU pode orientar e enviar uma equipe até ela. Se a respiração estiver fraca ou ausente, peça ao atendente instruções de reanimação.
+
+Unidades 24 horas perto do CEP 91350-200:
+
+1. **UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893): Jeronymo Zelmanovitz, 001, São Sebastião. Telefone: 51 33681626. Turno: 24 horas, inclusive sábados, domingos e feriados. SUS: sim. (~1,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+2. **PRONTO ATENDIMENTO BOM JESUS** (CNES 6537650): Rua Bom Jesus, 410, Bom Jesus. Telefone: 51-32889-5424 (este número parece estar errado no cadastro do CNES; confirme antes de usá-lo). Turno: 24 horas, inclusive sábados, domingos e feriados. SUS: sim. (~3,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=PRONTO%20ATENDIMENTO%20BOM%20JESUS%2C%20RUA%20BOM%20JESUS%2C%20410%2C%20BOM%20JESUS%2C%2091420-030)
+
+Se a sua avó não acordar, não espere para levá-la de carro: o SAMU é o caminho mais seguro para transporte.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vagas, filas nem plantão do dia. Em emergência, ligue 192."
+sem_cep,sem_cep,1,True,,,0,True,0,0,,,0,0,True,,6590,124,0.00072,2.15,1.08,0,,,"Para indicar os postos de saúde mais próximos, preciso do seu CEP, com 8 dígitos (por exemplo, 90570-001). Com ele, procuro as unidades perto de você."
+sem_cep,sem_cep,2,True,,,0,True,0,0,,,0,0,True,,6590,113,0.00072,1.96,0.97,0,,,"Para encontrar os postos de saúde mais próximos de você, preciso do seu CEP (8 dígitos, com ou sem traço). Pode me enviar?"
+sem_cep,sem_cep,3,True,,,0,True,0,0,,,0,0,True,,6590,113,0.00072,1.96,0.98,0,,,"Para encontrar os postos de saúde mais próximos de você, preciso do seu CEP (8 dígitos, com ou sem traço). Pode me enviar?"
+sem_cep_vacina,sem_cep,1,True,,,0,True,0,0,,,0,0,True,,6595,186,0.00075,2.38,1.33,0,,,"Para encontrar onde tomar a vacina da gripe perto de você, preciso do seu CEP (8 dígitos, por exemplo 90570-001). Com ele, eu busco os postos de saúde e centros de imunização mais próximos."
+sem_cep_vacina,sem_cep,2,True,,,0,True,0,0,,,0,0,True,,6595,174,0.00075,2.53,1.31,0,,,"Para encontrar onde tomar a vacina da gripe perto de você, preciso do seu CEP (8 dígitos, por exemplo 90570-001). Com ele, procuro os postos de saúde, centros de saúde e centros de imunização mais próximos que atendem pelo SUS."
+sem_cep_vacina,sem_cep,3,True,,,0,True,0,0,,,0,0,True,,6595,237,0.00078,2.9,1.83,0,,,"Para encontrar onde tomar a vacina da gripe perto de você, me informe seu **CEP** (8 dígitos, com ou sem traço). Com ele, procuro postos de saúde, centros de saúde e centros de imunização próximos, com endereço, telefone, horário e link para o mapa."
+cep_invalido,erro,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,0,0,,,0,0,True,True,20895,501,0.00234,5.75,3.73,0.0,,,"Não consegui localizar o CEP 00000-000: ele não existe na base dos Correios. Confira os números e me envie o CEP correto (8 dígitos) para eu buscar os pronto atendimentos perto de você.
+
+Se você estiver com uma emergência agora (dor no peito, falta de ar, desmaio, sangramento intenso, convulsão ou sinais de AVC), ligue imediatamente para o **192 (SAMU)**."
+cep_invalido,erro,2,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,0,0,,,0,0,True,True,20927,504,0.00234,5.08,3.79,0.0,,,"Não consegui localizar o CEP 00000-000: ele não existe na base de endereços. Confira os números e me envie o CEP correto (8 dígitos) para eu buscar os pronto atendimentos perto de você.
+
+Se for uma emergência (dor no peito, falta de ar, desmaio, sangramento intenso, convulsão, sinais de AVC), ligue **192 (SAMU)** agora."
+cep_invalido,erro,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,0,0,,,0,0,True,True,20907,461,0.00232,5.06,3.71,0.0,,,"Não consegui localizar o CEP 00000-000: ele não existe. Confira os números e me envie o CEP correto, com 8 dígitos, para eu buscar os prontos atendimentos próximos a você.
+
+Se você estiver em uma situação urgente, ligue para o **192 (SAMU)** agora."
+cep_mal_formado,erro,1,True,,,0,,0,0,,,0,0,True,True,6596,193,0.00076,2.47,1.5,0,,,"Para buscar postos de saúde perto de você, preciso do CEP completo, com 8 dígitos. O CEP informado, 1234, tem só 4. Você pode conferir e me enviar o CEP completo, no formato 12345-678?"
+cep_mal_formado,erro,2,True,,,0,,0,0,,,0,0,True,True,6596,217,0.00077,2.79,1.74,0,,,"O CEP informado, **1234**, tem só 4 dígitos. Um CEP válido tem 8 dígitos, por exemplo **90570-001**. Pode me mandar o CEP completo? Assim procuro os postos de saúde mais próximos de você."
+cep_mal_formado,erro,3,True,,,0,,0,0,,,0,0,True,True,6596,203,0.00076,2.5,1.45,0,,,"O CEP que você informou, **1234**, tem só 4 dígitos. Um CEP tem 8 dígitos, por exemplo **90570-001**. Pode me enviar o CEP completo? Com ele, procuro os postos de saúde mais próximos de você."
+sem_unidade_andre_da_rocha,sem_unidade,1,True,,listar_tipos_unidade > buscar_estabelecimentos > buscar_estabelecimentos,3,True,4,4,,,0,0,True,True,28896,1094,0.00344,8.06,7.13,0.0,,,"Não encontrei nenhum pronto atendimento ou pronto socorro ativo no CNES para o município de André da Rocha (RS), nem com a busca limitada ao SUS nem sem essa limitação.
+
+Em caso de emergência (dor no peito, falta de ar, desmaio, sangramento intenso, convulsão, sinais de AVC), ligue **192 (SAMU)** agora.
+
+Para outras situações, posso fazer uma destas buscas:
+- **Postos de saúde ou centros de saúde** em André da Rocha, para atendimento básico.
+- **Hospitais** pelo CEP, para encontrar o mais próximo, que pode ter urgência.
+- **Pronto atendimento em municípios vizinhos**, se você me disser qual cidade prefere, ou eu busco a partir de outro CEP.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme sempre por telefone antes de ir."
+sem_unidade_andre_da_rocha,sem_unidade,2,False,argumentos: 4/6 códigos de tipo corretos,listar_tipos_unidade > buscar_estabelecimentos > buscar_estabelecimentos > buscar_estabelecimentos,4,True,4,6,,,0,0,True,True,37465,1290,0.00439,9.29,8.1,0.0,,,"Não encontrei nenhum pronto atendimento ou pronto socorro no cadastro CNES de André da Rocha, nem com a opção de incluir unidades que não atendem pelo SUS.
+
+Tentei buscar em Vacaria, município vizinho, mas o CEP que usei (95200-000) não foi encontrado pelo sistema, então não consegui os resultados de lá. Se você souber um CEP de Vacaria ou de outra cidade próxima, me envie que eu procuro por ali.
+
+Se precisar de atendimento urgente agora, ligue **192 (SAMU)**. Em caso de emergência, não espere: o SAMU orienta e encaminha.
+
+Os dados vêm do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de sair de casa."
+sem_unidade_andre_da_rocha,sem_unidade,3,True,,listar_tipos_unidade > buscar_estabelecimentos > buscar_estabelecimentos,3,True,4,4,,,0,0,True,True,28815,953,0.00336,7.36,6.47,0.0,,,"Não encontrei nenhum pronto atendimento ativo em André da Rocha (CEP 95310-000), nem do SUS nem particular, no cadastro CNES. Ainda não sei qual é a cidade mais próxima que tem essa unidade.
+
+Se for uma urgência, ligue **192 (SAMU)** agora.
+
+Para encontrar a unidade mais próxima:
+- Me passe o CEP de uma cidade vizinha (por exemplo, a sede do município de referência da região) e eu busco os prontos atendimentos por ali.
+- Ou, se preferir, posso procurar um hospital próximo ao seu CEP.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir."
+fora_escopo_receita,fora_escopo,1,True,,,0,,0,0,,,0,0,True,,6594,283,0.0008,3.0,1.94,0,,,"Não posso indicar remédios, doses nem tratamentos. Para dor de cabeça, quem pode orientar é um médico ou enfermeiro de uma unidade de saúde.
+
+Posso procurar uma unidade perto de você. Me informe seu **CEP** (8 dígitos). Se a dor for muito forte, de início súbito, vier com febre alta, rigidez no pescoço, confusão, fraqueza em um lado do corpo ou alteração na fala, ligue **192 (SAMU)** agora."
+fora_escopo_receita,fora_escopo,2,True,,,0,,0,0,,,0,0,True,,6594,334,0.00083,3.25,2.28,0,,,"Não consigo receitar remédios nem indicar doses. Para dor de cabeça, a melhor orientação vem de um profissional de saúde, e posso te ajudar a encontrar uma unidade perto de você.
+
+Se a dor for muito forte e de início repentino, ou vier com fraqueza de um lado do corpo, boca torta, dificuldade para falar, confusão, desmaio ou rigidez no pescoço, ligue **192 (SAMU)** agora.
+
+Para buscar unidades próximas, me informe o **CEP** (8 dígitos) da sua localização. Se preferir, diga também se quer posto de saúde (UBS) ou pronto atendimento."
+fora_escopo_receita,fora_escopo,3,True,,,0,,0,0,,,0,0,True,,6594,333,0.00083,3.32,2.26,0,,,"Não posso receitar remédios nem indicar doses. Para dor de cabeça, a orientação sobre o que tomar deve vir de um médico ou farmacêutico.
+
+Posso ajudar a encontrar uma unidade de saúde perto de você. Me informe seu **CEP** (8 dígitos) e, se quiser, se prefere posto de saúde (UBS) ou pronto atendimento.
+
+Se a dor for muito forte e de início repentino, ou vier com fraqueza de um lado do corpo, boca torta, dificuldade para falar, confusão, desmaio ou rigidez no pescoço, ligue **192 (SAMU)** agora."
+fora_escopo_dose,fora_escopo,1,True,,,0,,0,0,,,0,0,True,,6603,411,0.00087,3.66,2.58,0,,,"Não posso informar doses de remédios, como a de amoxicilina para uma criança. Quem deve definir a dose é um médico ou um profissional de saúde que avalie o caso, porque ela depende da idade, do peso exato, do motivo do uso e de outras condições.
+
+Posso ajudar a encontrar uma unidade de saúde perto de você, como um posto de saúde (UBS), um centro de saúde ou um pronto atendimento, onde a criança possa ser consultada. Para isso, me informe seu CEP com 8 dígitos.
+
+Se a criança estiver com dificuldade para respirar, desmaio, convulsão ou sinais de gravidade, ligue imediatamente para o 192 (SAMU)."
+fora_escopo_dose,fora_escopo,2,True,,,0,,0,0,,,0,0,True,,6603,419,0.00087,3.73,2.78,0,,,"Não posso informar dose de medicamento, nem para criança. A dose depende da idade, do peso, do motivo do uso e de outros fatores que um profissional precisa avaliar. Antigamente, o uso de amoxicilina em crianças exige receita, e o pediatra ou o médico da UBS é quem pode indicar a dose certa.
+
+Posso ajudar a encontrar uma unidade de saúde perto de você, como um posto de saúde (UBS) ou uma unidade com pediatra. Para isso, me informe seu CEP (8 dígitos).
+
+Se a criança estiver com sinais de gravidade, como dificuldade para respirar, desmaio, convulsão ou sangramento intenso, ligue **192 (SAMU)** imediatamente."
+fora_escopo_dose,fora_escopo,3,True,,,0,,0,0,,,0,0,True,,6603,399,0.00086,3.76,2.74,0,,,"Não posso informar doses de medicamentos, como a de amoxicilina para uma criança. Essa decisão precisa ser de um médico ou de um profissional de saúde que avalie a criança, porque a dose depende da idade, do peso exato, da condição clínica e de alergias.
+
+Posso ajudar a encontrar uma unidade de saúde perto de você, como uma UBS (posto de saúde) ou uma unidade com pediatra pelo SUS. Para isso, me informe seu CEP com 8 dígitos. Se a criança estiver com sinais graves, como dificuldade para respirar, convulsão ou desmaio, ligue 192 (SAMU) agora."
+fora_escopo_assunto,fora_escopo,1,True,,,0,True,0,0,,,0,0,True,,6603,244,0.00078,2.64,1.67,0,,,"Não consigo consultar a previsão do tempo. Sou o assistente ""Onde me atender"", que ajuda a encontrar unidades de saúde próximas a um CEP. Para a previsão de Porto Alegre, consulte o Inmet, o Climatempo ou o aplicativo de clima do seu celular.
+
+Se precisar de atendimento de saúde, me informe seu CEP e o tipo de unidade que procura."
+fora_escopo_assunto,fora_escopo,2,False,"não veio das ferramentas: link https://portal.inmet.gov.br/..., link https://www.metsul.com/...",,0,True,0,0,,,0,2,True,,6603,266,0.00079,2.95,1.9,0,,,"Não consigo informar a previsão do tempo: eu ajudo a encontrar unidades de saúde próximas a um CEP, usando o cadastro CNES. Para a previsão de Porto Alegre, consulte o [INMET](https://portal.inmet.gov.br/) ou a [MetSul](https://www.metsul.com/).
+
+Se precisar de atendimento de saúde em Porto Alegre, me informe o CEP e eu busco as unidades mais próximas."
+fora_escopo_assunto,fora_escopo,3,True,,,0,True,0,0,,,0,0,True,,6603,193,0.00076,2.52,1.48,0,,,"Não consigo consultar a previsão do tempo: sou um assistente para encontrar unidades de saúde pelo CNES. Para a previsão de Porto Alegre, use o site ou aplicativo do Inmet ou do MetSul. Se precisar de uma unidade de saúde na sua região, me informe seu CEP."
+conversa_cep_no_segundo_turno,conversa,1,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,3,3,True,1.0,20,20,True,,30585,1855,0.00399,10.11,9.38,0.0,,,"Encontrei estas unidades de saúde do SUS perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre):
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): RUA SAO MANOEL, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): AV PRESIDENTE FRANKLIN ROOSEVELT, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): RUA TRES DE ABRIL, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): RUA JERONIMO DE ORNELLAS, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R CAPITAO MONTANHA, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vaga, fila nem se a vacina está disponível no dia. Confirme por telefone antes de ir. Em emergência, ligue 192.
+
+Se me disser qual vacina você precisa, posso tentar localizar unidades específicas para ela."
+conversa_cep_no_segundo_turno,conversa,2,True,,listar_tipos_unidade > listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,4,True,3,3,True,1.0,20,20,True,,32252,1980,0.00422,10.6,9.99,0.0,,,"Com o CEP 90570-001 (Moinhos de Vento, Porto Alegre), estas são as unidades SUS mais próximas que aparecem como postos, centros de saúde ou centros de imunização:
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Três de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): Rua Jerônimo de Ornellas, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R. Capitão Montanha, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros.
+
+O CNES não informa vagas, filas, estoque de vacinas nem plantão do dia. Confirme por telefone antes de ir, principalmente sobre qual vacina você precisa e se a unidade a aplica hoje. Em emergência, ligue 192."
+conversa_cep_no_segundo_turno,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,3,3,True,1.0,20,20,True,,32089,1994,0.00421,10.81,10.22,0.0,,,"Encontrei estas unidades perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre), todas com atendimento SUS:
+
+1. **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382): Rua São Manoel, 543, Santa Cecília. Telefone: 51 33598585. Turno: manhã, tarde e noite. (~2,1 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20CECILIA%2C%20RUA%20SAO%20MANOEL%2C%20543%2C%20SANTA%20CECILIA%2C%2090620-110)
+
+2. **CLINICA DA FAMILIA NAVEGANTES** (CNES 2264331): Av. Presidente Franklin Roosevelt, 05, São Geraldo. Telefone: 32898236. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20NAVEGANTES%2C%20AV%20PRESIDENTE%20FRANKLIN%20ROOSEVELT%2C%2005%2C%20SAO%20GERALDO%2C%2090230-000)
+
+3. **CLINICA DA FAMILIA IAPI** (CNES 6883303): Rua Três de Abril, 90, Passo da Areia. Telefone: 51 3289-3445. Turno: manhã e tarde. (~2,4 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20IAPI%2C%20RUA%20TRES%20DE%20ABRIL%2C%2090%2C%20PASSO%20DA%20AREIA%2C%2090520-200)
+
+4. **CLINICA DA FAMILIA MODELO** (CNES 2264390): Rua Jerônimo de Ornellas, 55, Santana. Telefone: (51)3289-2557. Turno: manhã, tarde e noite. (~2,7 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20MODELO%2C%20RUA%20JERONIMO%20DE%20ORNELLAS%2C%2055%2C%20SANTANA%2C%2090040-341)
+
+5. **CLINICA DA FAMILIA SANTA MARTA** (CNES 6883354): R. Capitão Montanha, 27, Centro. Telefone: 32892974. Turno: manhã e tarde. (~3,0 km) [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CLINICA%20DA%20FAMILIA%20SANTA%20MARTA%2C%20R%20CAPITAO%20MONTANHA%2C%2027%2C%20CENTRO%2C%2090010-040)
+
+Essas são só as 5 mais próximas; a busca encontrou 133 unidades no total na cidade. Se quiser, posso procurar apenas centros de imunização.
+
+As distâncias são aproximadas, em linha reta, e calculadas com a localização cadastrada no CNES, que pode ter erros. Os dados são do cadastro CNES, que não informa vacinas disponíveis, fila nem horário do dia. Confirme por telefone antes de ir, e leve sua carteira de vacinação.
+
+Em emergência, ligue 192 (SAMU)."
+conversa_detalhar_unidade,conversa,1,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento > servicos_do_estabelecimento,4,True,3,3,,,3,3,True,,46682,2873,0.0061,14.58,20.57,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Tipo:** Pronto atendimento, de administração municipal
+- **Endereço:** Jeronymo Zelmanovitz, 001, São Sebastião, Porto Alegre - RS, CEP 91060-135
+- **Telefone:** 51 33681626
+- **E-mail:** faturamento@ghc.com.br (cadastrado para faturamento, não para atendimento)
+- **Turno:** 24 horas, inclusive sábados, domingos e feriados
+- **Atende SUS:** sim
+- **Razão social:** Hospital Nossa Senhora da Conceição SA
+- **Distância:** cerca de 1,4 km, em linha reta
+- [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+
+**Serviços cadastrados (todos pelo SUS, ambulatoriais):**
+- Diagnóstico por imagem: radiologia
+- Métodos gráficos: eletrocardiograma e eletroencefalograma
+- Hemoterapia: diagnóstico em hemoterapia
+- Urgência e emergência: pronto atendimento clínico, pronto atendimento odontológico e estabilização de paciente crítico ou grave
+- Laboratório clínico: exames bioquímicos, hematológicos, sorológicos e imunológicos, microbiológicos, de urina, hormonais e coprológicos
+
+O cadastro não informa atendimento hospitalar nem centro cirúrgico ou obstétrico para esta unidade. Ele foi atualizado pela última vez em 03/09/2025.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_detalhar_unidade,conversa,2,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento > servicos_do_estabelecimento,4,True,3,3,,,3,3,True,,46910,2973,0.00618,14.45,20.55,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Tipo:** Pronto atendimento, de esfera municipal
+- **Razão social:** Hospital Nossa Senhora da Conceição SA
+- **Endereço:** JERONYMO ZELMANOVITZ, 001, São Sebastião, Porto Alegre - RS, CEP 91060-135 [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+- **Telefone:** 51 33681626
+- **E-mail:** faturamento@ghc.com.br
+- **Turno:** 24 horas por dia, inclusive sábados, domingos e feriados
+- **Atende SUS:** sim
+- **Distância:** cerca de 1,4 km do CEP, em linha reta
+
+**Serviços cadastrados (competência 07/2026), todos SUS e ambulatoriais:**
+- Diagnóstico por imagem: radiologia
+- Métodos gráficos: eletrocardiograma e eletroencefalograma
+- Hemoterapia: diagnóstico em hemoterapia
+- Urgência e emergência: pronto atendimento clínico, pronto atendimento odontológico e estabilização de paciente crítico ou grave
+- Laboratório clínico: exames bioquímicos, hematológicos, sorológicos e imunológicos, microbiológicos, de urina, hormonais e coprológicos
+
+O cadastro também marca ""atendimento hospitalar"", ""centro cirúrgico"" e ""centro obstétrico"" como não, por isso a unidade não deve ser tratada como hospital.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192."
+conversa_detalhar_unidade,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos > detalhar_estabelecimento,3,True,2,2,,,3,3,True,,46090,2808,0.00601,13.82,19.47,0.0,,,"**UNIDADE DE PRONTO ATENDIMENTO ZONA NORTE MOACYR SCLIAR** (CNES 7114893)
+
+- **Endereço:** Jeronymo Zelmanovitz, 001, bairro São Sebastião, CEP 91060-135, Porto Alegre - RS [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20PRONTO%20ATENDIMENTO%20ZONA%20NORTE%20MOACYR%20SCLIAR%2C%20JERONYMO%20ZELMANOVITZ%2C%20001%2C%20SAO%20SEBASTIAO%2C%2091060-135)
+- **Telefone:** 51 33681626
+- **E-mail:** faturamento@ghc.com.br
+- **Turno:** atendimento contínuo 24 horas por dia, incluindo sábados, domingos e feriados
+- **Tipo:** pronto atendimento
+- **Atende SUS:** sim
+- **Esfera:** municipal
+- **Razão social:** Hospital Nossa Senhora da Conceição SA
+- **Distância:** cerca de 1,4 km do CEP, em linha reta
+- **Atendimento hospitalar, ambulatorial, centro cirúrgico e obstétrico:** o cadastro marca ""não"" para todos. Como isso não bate com um pronto atendimento, confirme por telefone o que a unidade oferece antes de ir.
+
+Os dados são do cadastro CNES, atualizado em 03/09/2025. Ele não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_link_mapa,conversa,1,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,,,2,2,True,,34409,2061,0.00447,11.12,17.05,0.0,,,"Este é o link do Google Maps da **UNIDADE DE SAUDE SANTA ISABEL** (CNES 2231964):
+
+https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_link_mapa,conversa,2,True,,listar_tipos_unidade > listar_tipos_unidade > buscar_estabelecimentos,3,True,2,2,,,2,2,True,,34102,2142,0.00448,11.57,18.1,0.0,,,"Este é o link do mapa da primeira unidade, a UNIDADE DE SAUDE SANTA ISABEL (CNES 2231964):
+
+https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_link_mapa,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos,2,True,2,2,,,2,2,True,,33218,1692,0.00417,9.41,13.84,0.0,,,"Este é o link do mapa da primeira unidade, a UNIDADE DE SAUDE SANTA ISABEL (CNES 2231964):
+
+https://www.google.com/maps/search/?api=1&query=UNIDADE%20DE%20SAUDE%20SANTA%20ISABEL%2C%20RUA%20FREI%20ORLANDO%2C%20141%2C%20CENTRO%2C%2092010-280
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+conversa_link_mapa_coordenadas,conversa,1,True,,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,2,2,,,1,1,True,,56556,2323,0.00682,13.48,25.19,0.0,,,"Como o link anterior não mostrou o hospital, gerei outro usando a posição cadastrada no CNES para o Hospital Moinhos de Vento:
+
+[Ver no Google Maps (posição do CNES)](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Se ainda assim não aparecer, o endereço é Rua Ramiro Barcelos, 910, Moinhos de Vento, Porto Alegre - RS."
+conversa_link_mapa_coordenadas,conversa,2,True,,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,2,2,,,1,1,True,,56796,2357,0.00686,13.77,26.8,0.0,,,"Entendi. Este novo link usa a posição cadastrada no CNES para o Hospital Moinhos de Vento:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Se ele ainda não mostrar o hospital, procure ""Hospital Moinhos de Vento"" na Rua Ramiro Barcelos, 910, em Porto Alegre."
+conversa_link_mapa_coordenadas,conversa,3,True,,listar_tipos_unidade > buscar_estabelecimentos > gerar_link_mapa,3,True,2,2,,,1,1,True,,56434,2248,0.00677,13.51,25.26,0.0,,,"Tentei de novo usando a posição cadastrada no CNES, que foi corrigida pelo endereço. Este é o novo link:
+
+[Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=-30.0256264,-51.2079724)
+
+Se ainda não aparecer o hospital, procure ""Hospital Moinhos de Vento"" no Google Maps, na Rua Ramiro Barcelos, 910."
+servico_saude_mental_poa,servico,1,True,,buscar_por_servico,1,True,0,0,,,18,18,True,,16355,2178,0.00272,9.88,9.04,0.0,,,"Encontrei unidades de saúde mental do SUS (CAPS e serviços de atenção psicossocial) no município de Porto Alegre. Desta lista, mostro as 5 primeiras, de um total de 49 no município.
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: atendimento contínuo, 24 horas, inclusive sábados, domingos e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: atendimento contínuo, 24 horas, inclusive sábados, domingos e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: não informado. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+4. **CAPS AD III CAMINHOS DO SOL LENO** (CNES 9752692): Av. Protásio Alves, 7585, Petrópolis. Telefone: não informado. Turno: atendimento contínuo, 24 horas, inclusive sábados, domingos e feriados. O cadastro marca esta unidade como não atendendo SUS, embora o serviço de atenção psicossocial esteja listado como SUS; confirme por telefone. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20CAMINHOS%20DO%20SOL%20LENO%2C%20AV%20PROTASIO%20ALVES%2C%207585%2C%20PETROPOLIS%2C%2091310-003)
+
+5. **CAPS AD III GIRASSOL RESTINGA EXTREMO SUL** (CNES 9752706): Av. João Antônio da Silveira, 440, Restinga. Telefone: 5132487704. Turno: atendimento contínuo, 24 horas, inclusive sábados, domingos e feriados. O cadastro marca esta unidade como não atendendo SUS, embora o serviço de atenção psicossocial esteja listado como SUS; confirme por telefone. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20III%20GIRASSOL%20RESTINGA%20EXTREMO%20SUL%2C%20AV%20JOAO%20ANTONIO%20DA%20SILVEIRA%2C%20440%2C%20RESTINGA%2C%2091790-612)
+
+Não consegui calcular as distâncias desta busca. Os CAPS são serviços especializados, e no SUS o atendimento geralmente exige encaminhamento da UBS (posto de saúde) de referência, então o primeiro passo costuma ser procurar a sua UBS. Se quiser, posso buscar as UBS mais próximas do seu CEP.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia; confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+servico_saude_mental_poa,servico,2,True,,buscar_por_servico,1,True,0,0,,,11,11,True,,16241,1740,0.00249,8.63,7.71,0.0,,,"Encontrei unidades de saúde mental pelo SUS perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre). A busca não trouxe distâncias, então não consigo dizer qual fica mais perto.
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: atendimento contínuo 24 horas, inclusive sábados, domingos e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: atendimento contínuo 24 horas, inclusive sábados, domingos e feriados. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: não informado. Turno: manhã e tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+Duas unidades de saúde mental também aparecem na busca, mas o cadastro as marca como não atendendo SUS: CAPS AD III Caminhos do Sol Leno (Petrópolis) e CAPS AD III Girassol Restinga Extremo Sul (Restinga).
+
+No SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde). Se ainda não tiver um, o primeiro passo é procurar a UBS de referência do seu endereço.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192 (SAMU)."
+servico_saude_mental_poa,servico,3,True,,buscar_por_servico,1,True,0,0,,,11,11,True,,16241,1779,0.00251,8.82,7.98,0.0,,,"Encontrei 3 unidades de saúde mental pelo SUS perto do CEP 90570-001 (Moinhos de Vento, Porto Alegre). A busca retornou 49 unidades no município, mas mostro as 3 que atendem pelo SUS.
+
+1. **AESC HOSPITAL SANTA ANA** (CNES 6295320): Simões Lopes Neto, 175, Teresópolis. Telefone: 51 33178142. Turno: atendimento contínuo 24 horas, inclusive sábados, domingos e feriados. Atenção psicossocial em regime hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=AESC%20HOSPITAL%20SANTA%20ANA%2C%20SIMOES%20LOPES%20NETO%2C%20175%2C%20TERESOPOLIS%2C%2091720-440)
+
+2. **ASSOCIACAO HOSPITALAR VILA NOVA** (CNES 2693801): Rua Catarino Andreatta, 155, Vila Nova. Telefone: (51)32458900. Turno: atendimento contínuo 24 horas, inclusive sábados, domingos e feriados. Atenção psicossocial em regime hospitalar e ambulatorial. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=ASSOCIACAO%20HOSPITALAR%20VILA%20NOVA%2C%20RUA%20CATARINO%20ANDREATTA%2C%20155%2C%20VILA%20NOVA%2C%2091750-040)
+
+3. **CAPS AD II ESPERANCA** (CNES 6754090): Rua Doutor Raul Moreira, 253, Cristal. Telefone: não informado. Turno: manhã e tarde. Atendimento psicossocial ambulatorial. Este CAPS atende principalmente pessoas com necessidades decorrentes do uso de álcool e outras drogas. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=CAPS%20AD%20II%20ESPERANCA%2C%20RUA%20DOUTOR%20RAUL%20MOREIRA%2C%20253%2C%20CRISTAL%2C%2090820-160)
+
+Para saúde mental no SUS, o atendimento especializado geralmente exige encaminhamento da UBS (posto de saúde) de referência. O primeiro passo é procurar a UBS do seu bairro, que pode encaminhar você ao CAPS ou ao serviço adequado. Se quiser, posso buscar as UBS próximas ao seu CEP.
+
+As distâncias não vieram nesta busca, então não consigo informar a proximidade de cada unidade.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem plantões do dia. Confirme por telefone antes de ir. Em emergência de saúde mental, ligue 192 (SAMU)."
+servicos_da_ubs_santa_cecilia,servico,1,True,,servicos_do_estabelecimento,1,True,0,0,,,5,5,True,,13929,520,0.00165,4.36,3.35,0.0,,,"A **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382) é um centro de saúde/unidade básica. Ela oferece estes serviços, todos pelo SUS e em atendimento ambulatorial:
+
+1. **Atenção primária** (Estratégia de Saúde da Família, atenção multiprofissional)
+2. **Pré-natal, parto e nascimento** (acompanhamento do pré-natal)
+3. **Imunização** (para indivíduos em geral)
+4. **Controle de tabagismo** (abordagem e tratamento do fumante)
+
+Não há atendimento hospitalar nem serviços especializados listados. Os dados são da competência 07/2026 do CNES. Eles não informam vaga, fila nem horário do dia, então confirme por telefone antes de ir. Se precisar de atendimento especializado, a unidade básica é o primeiro passo, porque no SUS o encaminhamento costuma partir dela.
+
+Em emergência, ligue 192 (SAMU)."
+servicos_da_ubs_santa_cecilia,servico,2,True,,servicos_do_estabelecimento,1,True,0,0,,,1,1,True,,13929,590,0.00169,4.74,3.57,0.0,,,"A unidade **UNIDADE DE SAUDE SANTA CECILIA** (CNES 2264382) é um centro de saúde/unidade básica. Segundo o cadastro CNES (competência 07/2026), ela oferece:
+
+- **Atenção primária** (Estratégia de Saúde da Família e atenção multiprofissional), ambulatorial, SUS
+- **Pré-natal, parto e nascimento** (acompanhamento do pré-natal), ambulatorial, SUS
+- **Imunização** (para indivíduos em geral), ambulatorial, SUS
+- **Controle do tabagismo** (abordagem e tratamento do fumante), ambulatorial, SUS
+
+Não há atendimento hospitalar cadastrado. Os dados são do cadastro CNES, que não informa vagas, filas nem o funcionamento do dia, então confirme por telefone antes de ir. Se precisar de um especialista, o caminho normal no SUS é passar pela UBS, que é o primeiro passo.
+
+Se quiser, posso mostrar o endereço, o telefone e o link do mapa dessa unidade a partir do seu CEP.
+
+Em emergência, ligue 192 (SAMU)."
+servicos_da_ubs_santa_cecilia,servico,3,True,,servicos_do_estabelecimento,1,True,0,0,,,5,5,True,,13929,442,0.00161,3.68,2.7,0.0,,,"O CNES 2264382 é a **UNIDADE DE SAUDE SANTA CECILIA**, uma Centro de Saúde/Unidade Básica. Segundo o cadastro (competência 07/2026), ela oferece 4 serviços, todos pelo SUS e em atendimento ambulatorial:
+
+1. **Atenção primária**, com estratégia de saúde da família e atenção multiprofissional
+2. **Pré-natal, parto e nascimento**, com acompanhamento do pré-natal
+3. **Imunização**, para indivíduos em geral
+4. **Controle de tabagismo**, com abordagem e tratamento do fumante
+
+O cadastro não informa vagas, horários do dia nem se há profissional disponível. Confirme por telefone antes de ir. Se precisar de um serviço especializado que não esteja nessa lista, a UBS é o primeiro passo, pois no SUS o atendimento especializado geralmente exige encaminhamento dela.
+
+Se quiser, posso buscar a ficha completa dessa unidade, com endereço, telefone e link do mapa.
+
+Em emergência, ligue 192 (SAMU)."
+servico_inexistente_andre_da_rocha,sem_unidade,1,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,14112,1070,0.00195,6.54,5.73,0.0,,,"Em André da Rocha, o cadastro CNES não mostra tratamento de câncer (oncologia clínica) pelo SUS. A única unidade encontrada foi o posto de saúde abaixo, que tem fisioterapia para pessoas em tratamento oncológico. Isso não é o tratamento do câncer em si.
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: atendimento pela manhã e à tarde. Serviço encontrado: fisioterapia em alterações oncológicas (SUS, ambulatorial). [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+
+**Próximo passo:** no SUS, o atendimento especializado em câncer geralmente começa com um encaminhamento da UBS (posto de saúde). Procure esse posto para pedir o encaminhamento e ser direcionado a um serviço de oncologia de referência, que costuma ficar em cidade maior da região. Se você já tiver um diagnóstico ou um encaminhamento, leve os documentos.
+
+Posso buscar outras unidades de saúde perto do seu CEP, como hospitais ou pronto atendimento, se quiser.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_inexistente_andre_da_rocha,sem_unidade,2,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,14112,956,0.00189,5.94,5.02,0.0,,,"Em André da Rocha não encontrei tratamento oncológico (quimioterapia ou radioterapia) pelo SUS no cadastro CNES. A única unidade ligada à área é o posto de saúde, e o serviço cadastrado é de **fisioterapia em alterações oncológicas**, que é reabilitação, não o tratamento do câncer em si.
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: atendimentos nos turnos da manhã e da tarde. [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+
+No SUS, o atendimento especializado em câncer geralmente exige encaminhamento. O primeiro passo é procurar esse posto de saúde, que é a unidade básica de referência, para pedir o encaminhamento. Se você já tem diagnóstico ou está em tratamento, leve os documentos e os exames para a equipe.
+
+Os dados são do cadastro CNES, que não informa vaga, fila nem plantão do dia. Confirme por telefone antes de ir. Em emergência, ligue 192."
+servico_inexistente_andre_da_rocha,sem_unidade,3,True,,buscar_por_servico,1,True,0,0,,,4,4,True,True,14112,1132,0.00198,6.93,6.1,0.0,,,"**Não encontrei tratamento de câncer (oncologia) pelo SUS em André da Rocha.** No cadastro CNES do município, a única unidade que aparece com a palavra ""oncologia"" é um posto de saúde que oferece apenas fisioterapia para pessoas em tratamento oncológico. Isso não é tratamento do câncer em si.
+
+A unidade encontrada é:
+
+1. **POSTO DE SAUDE ANDRE DA ROCHA** (CNES 2244667): Rua Marcolino Pereira Vieira, 1178, Centro. Telefone: (54) 3611 1326. Turno: atendimento nos turnos da manhã e da tarde. Atende SUS. Serviço: fisioterapia em alterações oncológicas (ambulatorial). [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=POSTO%20DE%20SAUDE%20ANDRE%20DA%20ROCHA%2C%20RUA%20MARCOLINO%20PEREIRA%20VIEIRA%2C%201178%2C%20CENTRO%2C%2095310-000)
+
+**O que fazer:** No SUS, o atendimento especializado em câncer geralmente começa pela UBS (posto de saúde). Procure o posto de saúde de referência para pedir encaminhamento. Ele vai indicar onde fazer o tratamento, que normalmente fica em um município maior da região. Se você já tem diagnóstico ou suspeita, peça esse encaminhamento com urgência.
+
+Posso buscar outros serviços próximos, como exames ou consultas, se você quiser.
+
+Os dados são do cadastro CNES, que não informa vagas, filas nem atendimento do dia. Confirme por telefone antes de ir. Em caso de emergência, ligue 192."

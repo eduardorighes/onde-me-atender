@@ -1,0 +1,26 @@
+[project]
+name = "onde-me-atender"
+version = "0.1.0"
+description = "Agente didático que encontra unidades de saúde próximas usando o CNES via MCP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.8.0",
+    "fastapi>=0.163.0",
+    "httpx>=0.28.1",
+    "mcp>=2.3.0",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "streamlit>=1.67.0",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+# Permite importar `servidor_mcp` e `cliente` a partir da raiz do projeto.
+pythonpath = ["."]
+testpaths = ["tests"]
